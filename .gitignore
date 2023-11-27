@@ -1,0 +1,17 @@
+node_modules
+lib
+createGIT.sh
+.vercel
+*.log
+*.pyc
+__pycache__
+
+# Environments 
+**/.env
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 
