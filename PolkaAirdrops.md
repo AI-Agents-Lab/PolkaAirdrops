@@ -5,8 +5,8 @@
 > See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to submit a proposal.
 
 - **Team Name:** AI Agents Lab  
-- **Payment Address:** In the case of fiat payment, please share your bank account privately with grants@web3.foundation via your contact email (see below) and enter the date when you shared the information with us (e.g. Fiat 24.12.1971, 11:59) here. Otherwise, provide the Polkadot (for USDC & USDT) payment address. Please also specify the currency. (e.g. 0x8920... (USDC))
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1, 2 or 3
+- **Payment Address:** 14atBfY6PexLsYLsCUxvEv2Ra5naHWpf6SN2KkFJdMydU47o
+- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
 > :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -18,12 +18,15 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 ### Overview
 
-Please provide the following:
+PolkaAirdrops is an advanced marketing and promotion platform tailored for crypto projects on the Polkadot network.
+Its standout feature is the integration of generative AI technology to create unique NFTs and automate their distribution 
+using the power of AI to active project ambassadors on social media, particularly Twitter.
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+Our team is passionate about creating the PolkaAirdrops project because we recognize the untapped potential 
+within the Polkadot ecosystem and the critical need for enhanced visibility of its projects. 
+We are driven by the opportunity to leverage cutting-edge generative AI technology to bridge this gap,
+fostering community engagement and attracting potential investors and users to Polkadot's innovative ecosystem.
+
 
 ### Project Details
 
@@ -70,7 +73,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
+- **Registered Address:** (e.g. High Street 1, London LK1 234, UK)
 - **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
