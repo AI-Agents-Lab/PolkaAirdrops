@@ -1,20 +1,11 @@
-# MoonAir
-
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`).
->
-> See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to submit a proposal.
+# PolkaAirdrops
 
 - **Team Name:** AI Agents Lab  
 - **Payment Address:** 14atBfY6PexLsYLsCUxvEv2Ra5naHWpf6SN2KkFJdMydU47o
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
-
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
 
@@ -27,6 +18,10 @@ within the Polkadot ecosystem and the critical need for enhanced visibility of i
 We are driven by the opportunity to leverage cutting-edge generative AI technology to bridge this gap,
 fostering community engagement and attracting potential investors and users to Polkadot's innovative ecosystem.
 
+The immense potential we see in combining the power of airdrops with the expansive reach of social networks like Twitter
+provides an exceptional opportunity to amplify the visibility and appeal of Polkadot projects, reaching a diverse and extensive global audience in a way that is both innovative and highly effective.
+
+In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the cutting-edge capabilities of Generative Pre-trained Transformers (GPTs) for advanced natural language processing and sentiment analysis. This technology enables us to intelligently identify and reward positive social media engagements with precision. Simultaneously, we are utilizing EVM-compatible Moonriver smart contracts to ensure seamless, secure, and efficient airdrop distributions. This harmonious integration of GPTs' AI prowess with Moonriver's robust and flexible smart contract functionality embodies our commitment to innovation and efficiency, propelling us towards achieving our goal of elevating Polkadot projects' visibility on a global scale.
 
 ### Project Details
 
