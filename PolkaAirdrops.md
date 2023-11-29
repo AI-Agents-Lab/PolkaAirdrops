@@ -41,14 +41,18 @@ The main architecture of the project is depicted in ![Architecture of the PolkaA
 The main components are described below:
 
 * GPT. This is the front-end component that implements the UI. It is leveraging the GPTs solution of OpenAI platform. OpenAI platform allows to design GPTs to automate the iteraction with users. Our users are defined as the projects or event managers that want to create a viral airdrop compaing on twitter, and also ambassadors that are posting tweets with the goal to propelling the project visibility and thus
-get the NFT reward. The benefit of using the UI OpenAI platform is twofold: 1) Leverages the 1 billion monthly active user and 2) it is responsible being supported in both mobile and desktop devices. The own PolkaAirdops GPT allows to interact with project manager to help launching the airdrop campaing by defining the NFT to the project branding and the tweet analysis.  
+get the NFT reward. The benefit of using the UI OpenAI platform is twofold:
+  * Leverages the 1 billion monthly active user
+  * It is responsible being supported in both mobile and desktop devices. 
+  
+  The own PolkaAirdops GPT allows to interact with project manager to help launching the airdrop campaing by defining the NFT to the project branding and the tweet analysis.  
 
 * Backend server. This represents the core of the PolkaAirdrop platform. It is implemented enterely with python. Its main functions are described below:
-1. It exposes an API so the GPT can interact with the backend service to create the airdrop campaing. In this process the airdrop project specific prompt will be stored encrypted in the public IPFS. 
-2. It uses the twitter public API to collect the ambassador tweets. 
-3. It uses the propetary OpenAI GPT4 to perform the accurate sentiment analysis of the the tweets and check that are related to the aridrop project.   
-4. It creates the unique NFT following the prompt instructions already set up by the airdrop project. For this it will use the propetary OpenAI DALLE-3 API. This unique NFT will be stored in the IPFS. 
-5. It mints the particular NFT that will be rewarded to the ambassadors using the web3 python api. This api allows to mint the NFT in the Polkadot MoonBeam network.
+  * It exposes an API so the GPT can interact with the backend service to create the airdrop campaing. In this process the airdrop project specific prompt will be stored encrypted in the public IPFS. 
+  * It uses the twitter public API to collect the ambassador tweets. 
+  * It uses the propetary OpenAI GPT4 to perform the accurate sentiment analysis of the the tweets and check that are related to the aridrop project.   
+  * It creates the unique NFT following the prompt instructions already set up by the airdrop project. For this it will use the propetary OpenAI DALLE-3 API. This unique NFT will be stored in the IPFS. 
+  * It mints the particular NFT that will be rewarded to the ambassadors using the web3 python api. This api allows to mint the NFT in the Polkadot MoonBeam network.
 
 
 * MoonBeam smart contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to mint and distribute the NFTs to the rewarded ambassadors.  
