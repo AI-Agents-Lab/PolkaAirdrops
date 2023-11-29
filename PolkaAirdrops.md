@@ -156,7 +156,7 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 
 *  Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-  Our target audience primarily consists of Polkadot project marketing teams aiming to extend their reach to a broader audience. Additionally, our project introduces an unparalleled solution in bridging the gap between social network influencers and ambassadors and the Polkadot project marketing teams. This innovative merging is designed to create a mutually beneficial ecosystem where influencers and ambassadors can significantly amplify the visibility and appeal of Polkadot projects, driving engagement and adoption in the wider crypto community. Through this strategic alignment, PolkaAirdrops sets a new standard in digital marketing within the blockchain space, offering a unique and powerful tool for Polkadot projects to stand out in an increasingly competitive market.
+  Our target audience primarily consists of Polkadot projects aiming to extend their reach to a broader audience. Additionally, our project introduces an unparalleled solution in bridging the gap between social network influencers and ambassadors and the Polkadot project teams. This innovative merging is designed to create a mutually beneficial ecosystem where influencers and ambassadors can significantly amplify the visibility and appeal of Polkadot projects, driving engagement and adoption in the wider crypto community. Through this strategic alignment, PolkaAirdrops sets a new standard in digital marketing within the blockchain space, offering a unique and powerful tool for Polkadot projects to stand out in an increasingly competitive market.
 
 
 
@@ -292,7 +292,6 @@ If you've already started implementing your project or it is part of a larger re
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.|
 | **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with the NFT smart contract factory. |
 | **0e.** | Article | We will publish an article video that explains the functionality of the project. First, from the project manager we will show how to create an airdrop campaing. And lastly, from the ambassador side, we will show how to participate and redeem NFTs. |
-
 | 1. | Factory Smart contract  | We will deliver  the Moonbeam smart contract factory that will create the different project smart contracts. |
 | 2. | NFT Dynamic Smart contract | We will deliver the Moonbeam dynamic smart contract for projects that will mint the NFTs and distribute the NFTs. |
 | 3. | Backend API  | We will develop the API in the backend server to interact with the smart contract factory.  |
