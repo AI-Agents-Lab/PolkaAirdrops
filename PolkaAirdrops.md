@@ -25,6 +25,10 @@ In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the 
 
 ### Project Details
 
+
+![Architecture of the PolkaAirdrops](./PolkaAirdrops_Architecture.png)
+
+
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
 - Mockups/designs of any UI components
@@ -36,11 +40,8 @@ We expect the teams to already have a solid idea about your project's expected f
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 
-Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
 
-- The (future) tokenomics of your project
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+
 
 ### Ecosystem Fit
 
