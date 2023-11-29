@@ -138,19 +138,19 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 
 *  Where and how does your project fit into the ecosystem?
 
-In our understanding, it will be better fit in the User Interface open-source Polkadot Tech Stack. 
-Our project will offer listing and managing of current Airdrops on the Polkadot ecosystem.
-Up to now, there is no such as solution already implemented in the Polkadot Tech Stack. 
-Our solution, designed to be completely open source, directly benefits Polkadot projects
-by offering them access to our AI-driven automation software stack. 
-This innovative tool is specifically crafted to significantly boost their 
-visibility on social networks, enhancing their outreach and engagement within the digital community.
+  In our understanding, it will be better fit in the User Interface open-source Polkadot Tech Stack. 
+  Our project will offer listing and managing of current Airdrops on the Polkadot ecosystem.
+  Up to now, there is no such as solution already implemented in the Polkadot Tech Stack. 
+  Our solution, designed to be completely open source, directly benefits Polkadot projects
+  by offering them access to our AI-driven automation software stack. 
+  This innovative tool is specifically crafted to significantly boost their 
+  visibility on social networks, enhancing their outreach and engagement within the digital community.
 
 
 
 *  Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-   Our target audience primarily consists of Polkadot project marketing teams aiming to extend their reach to a broader audience. Additionally, our project introduces an unparalleled solution in bridging the gap between social network influencers and ambassadors and the Polkadot project marketing teams. This innovative merging is designed to create a mutually beneficial ecosystem where influencers and ambassadors can significantly amplify the visibility and appeal of Polkadot projects, driving engagement and adoption in the wider crypto community. Through this strategic alignment, PolkaAirdrops sets a new standard in digital marketing within the blockchain space, offering a unique and powerful tool for Polkadot projects to stand out in an increasingly competitive market.
+  Our target audience primarily consists of Polkadot project marketing teams aiming to extend their reach to a broader audience. Additionally, our project introduces an unparalleled solution in bridging the gap between social network influencers and ambassadors and the Polkadot project marketing teams. This innovative merging is designed to create a mutually beneficial ecosystem where influencers and ambassadors can significantly amplify the visibility and appeal of Polkadot projects, driving engagement and adoption in the wider crypto community. Through this strategic alignment, PolkaAirdrops sets a new standard in digital marketing within the blockchain space, offering a unique and powerful tool for Polkadot projects to stand out in an increasingly competitive market.
 
 
 
@@ -246,48 +246,52 @@ If you've already started implementing your project or it is part of a larger re
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/Support%20Docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We *recommend* that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish *under the terms of the license* of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Projects that submit other people's work without proper attribution will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested.
+- **Total Estimated Duration:** 4 months
+- **Full-Time Equivalent (FTE):**  5 FTE
+- **Total Costs:** 30,000 USD.
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 — GPT training 
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
-
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
+- **Estimated duration:** 8 weeks
+- **FTE:**  2.5
+- **Costs:** 15,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide technical documents and user guides |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
+| **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with the GPT trained. |
+| 1.      |  UI Design        | We will design the main actions for creation, managing, and participating Airdrops in the GPT UI. |
+| 2.      |  GPT training     | We will train the GPT to perform the different actions designed previously. |
+| 3.      |  GPT API          | We will implement the GPT api calls that will interface with the backend server.  |
+| 4.      |  NFT creation     | We will implement the NFT creation functions in the backend server using the  openAI API to create NFTs.|
+| 5.      |  IPFS storage     | We will implement the IPFS functions to store  the NFTs and promtps in the backend server.  |
+| 6.      |  Twitter          | We will implement the sentiment analysis funtionality in the backend server using the Twitter API.  |
+| 7.      |  Testing GPT      | Testing the implemented components above. Achieve a testing coverage of the functionalities above 90%  |
+
+
+### Milestone 2  — NFT smart contract factory
+
+- **Estimated duration:** 8 weeks
+- **FTE:**  2.5
+- **Costs:** 15,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide technical documents and user guides |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.|
+| **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with the NFT smart contract factory. |
+| **0e.** | Article | We will publish an article video that explains the functionality of the project. First, from the project manager we will show how to create an airdrop campaing. And lastly, from the ambassador side, we will show how to participate and redeem NFTs. |
+
+| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
 | 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
 
 
-### Milestone 2 Example — Additional features
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
-
-...
 
 
 ## Future Plans
@@ -297,19 +301,7 @@ Please include here
 - how you intend to use, enhance, promote and support your project in the short term, and
 - the team's long-term plans and intentions in relation to it.
 
-## Referral Program (optional) :moneybag:
-
-You can find more information about the program [here](../README.md#moneybag-referral-program).
-
-- **Referrer:** Name of the Polkadot Ambassador or GitHub account of the Web3 Foundation grantee
-- **Payment Address:** Polkadot/Kusama (USDT/USDC) payment address. Please also specify the currency. (e.g. 0x8920... (USDT))
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+**How did you hear about the Grants Program?** Announcement by CoinReference Team
