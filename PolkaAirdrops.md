@@ -56,6 +56,20 @@ get the NFT reward. The benefit of using the UI OpenAI platform is twofold:
   * It uses the twitter public API to collect the ambassador tweets. 
   * It uses the propetary OpenAI GPT4 to perform the accurate sentiment analysis of the the tweets and check that are related to the aridrop project.   
   * It creates the unique NFT following the prompt instructions already set up by the airdrop project. For this it will use the propetary OpenAI DALLE-3 API. This unique NFT will be stored in the IPFS. 
+  This is an example of the call to the DALLE-3 to generate a NFT:
+  ```
+    from openai import OpenAI
+    client = OpenAI()
+
+    response = client.images.generate(
+      model="dall-e-3",
+      prompt="project airdrop prompt",
+      size="1024x1024",
+      quality="standard",
+      n=1,
+    )
+    image_url = response.data[0].url
+  ```
   * It mints the particular NFT that will be rewarded to the ambassadors using the web3 python api. This api allows to mint the NFT in the Polkadot MoonBeam network.
 
 
