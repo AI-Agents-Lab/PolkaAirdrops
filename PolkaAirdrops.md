@@ -55,7 +55,7 @@ get the NFT reward. The benefit of using the UI OpenAI platform is twofold:
   * It exposes an API so the GPT can interact with the backend service to create the airdrop campaing. In this process the airdrop project specific prompt will be stored encrypted in the public IPFS. 
   * It uses the twitter public API to collect the ambassador tweets. 
   * It uses the propetary OpenAI GPT4 to perform the accurate sentiment analysis of the the tweets and check that are related to the aridrop project.   
-  * It creates the unique NFT following the prompt instructions already set up by the airdrop project. For this it will use the propetary OpenAI DALLE-3 API. This unique NFT will be stored in the IPFS. 
+  * It creates the unique NFT following the prompt instructions already set up by the airdrop project. For this it will use the propetary OpenAI DALLE-3 API. This unique NFT will be stored in the IPFS using the python IPFS API where we updload the NFT and obtain back the IPFS URI to mint later the NFT.
   This is an example of the call to the DALLE-3 to generate a NFT:
   ```
     from openai import OpenAI
@@ -70,11 +70,24 @@ get the NFT reward. The benefit of using the UI OpenAI platform is twofold:
     )
     image_url = response.data[0].url
   ```
-  * It mints the particular NFT that will be rewarded to the ambassadors using the web3 python api. This api allows to mint the NFT in the Polkadot MoonBeam network.
+  * It mints the particular NFT that will be rewarded to the ambassadors using the web3 python api. This api allows to mint the NFT in the Polkadot MoonBeam network. The NFT will be available for project ambassadors in their Polkadot Talisman wallet. Moreover the NFTs can also be traded in the Mintverse platform which is the world’s leading NFT aggregation marketplace, where users can easily collect and trade various types of NFT assets. Minting is performed using the new feature of dynamic NFT minting available in project's airdrop smart contract defined below. 
+
 
 
 * Moonbeam smart contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to mint and distribute the NFTs to the rewarded ambassadors. The project manager of the airdrop must send GLMR coins to the factory smart contract to create the propietary project NFT smart contract. 
 Moonbeam is a perfect fit for our project because it allows for building cross-chain connected applications in the Polkadot ecosystem. Moonbeam powers dApps that can access users, assets, and services on any chain. Moreover Moonbeam leverage EVM complatible smart contracts programming where out team has extensive expertise. 
+Here is an excerpt of the connection of the backend server to the Moonbeam smart contract.
+
+```
+from web3 import Web3
+
+provider_rpc = {
+    "development": "http://localhost:9944",
+    "moonbase": "https://rpc.api.moonbase.moonbeam.network",
+}
+web3 = Web3(Web3.HTTPProvider(provider_rpc["moonbase"]))  
+
+```
 
 
 
