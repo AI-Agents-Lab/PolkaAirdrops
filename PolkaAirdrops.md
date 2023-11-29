@@ -103,7 +103,14 @@ Once users have been installed the PolkaAirdrop in the OpenAI platform they will
 
 ![overview of GPTs in the OpenAI platform](./OpenAI_Polka.png)
 
+In the figure are depicted the user main actions that will trigger the iteraction with the PolkaAirdrop GPT AI:  
+* How do I create an airdop for my project?. In this action the GPT AI will guide through the different steps to set up the airdrop such as defining the project manager address, the project prompt NFT, the requisites for ambassadors to get rewarded the NFT, the duration of the airdrop, and so on. 
 
+* Can you guide me on participation on the airdrop?. This action is foscused to the ambassadors that the GPT AI will inform the ambassadors the actions that they have to perform to gain the NFT reward. 
+
+* How do I redeem the airdrop?. This is after the ending the ending of the airdrop campaing, ambassadors can can back here to redeempt the NFT based on their actions or post performed in the Twitter (X). 
+
+* What are the current airdrops on the Polkadot network?. This is informative of the current ongoing airdrop that ambassadors can participate to promote the Polkadot project. 
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
