@@ -9,9 +9,13 @@
 
 ### Overview
 
-PolkaAirdrops is an advanced marketing and promotion platform tailored for crypto projects on the Polkadot network.
+PolkaAirdrops is an advanced airdrop automation platform tailored for crypto projects on the Polkadot network.
 Its standout feature is the integration of generative AI technology to create unique NFTs and automate their distribution 
 using the power of AI to active project ambassadors on social media, particularly Twitter.
+
+Airdrops is an effective technique of marketing and promotion of crypto projects with a wide impact. 
+Famous airdrops such as Axie Infinity on 2021, achieved over 2 million participants. 
+This year 2023, chainGPT airdrop reached almost 1 million participants.
 
 Our team is passionate about creating the PolkaAirdrops project because we recognize the untapped potential 
 within the Polkadot ecosystem and the critical need for enhanced visibility of its projects. 
@@ -21,7 +25,7 @@ fostering community engagement and attracting potential investors and users to P
 The immense potential we see in combining the power of airdrops with the expansive reach of social networks like Twitter
 provides an exceptional opportunity to amplify the visibility and appeal of Polkadot projects, reaching a diverse and extensive global audience in a way that is both innovative and highly effective.
 
-In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the cutting-edge capabilities of Generative Pre-trained Transformers (GPTs) for advanced natural language processing and sentiment analysis. This technology enables us to intelligently identify and reward positive social media engagements with precision. Simultaneously, we are utilizing EVM-compatible Moonriver smart contracts to ensure seamless, secure, and efficient airdrop distributions. This harmonious integration of GPTs' AI prowess with Moonriver's robust and flexible smart contract functionality embodies our commitment to innovation and efficiency, propelling us towards achieving our goal of elevating Polkadot projects' visibility on a global scale.
+In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the cutting-edge capabilities of Generative Pre-trained Transformers (GPTs) for advanced natural language processing and sentiment analysis. This technology enables us to intelligently and automatically identify and reward positive social media engagements with precision. Simultaneously, we are utilizing EVM-compatible Moonbeam smart contracts to ensure seamless, secure, and efficient airdrop distributions. This harmonious integration of GPTs' AI prowess with Moonbeam's robust and flexible smart contract functionality embodies our commitment to innovation and efficiency, propelling us towards achieving our goal of elevating Polkadot projects' visibility on a global scale.
 
 ### Key Features:
 
@@ -93,7 +97,7 @@ web3 = Web3(Web3.HTTPProvider(provider_rpc["moonbase"]))
 
 ### PolkaAirdrop UI Mockups 
 
-Our team already developed a mocuk UI in the OpenAI platform for the first GPT module. 
+Our team already developed an UI mockup in the OpenAI platform for the first GPT module. 
 This is shown in the ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png)
 There you can see how the users will see our PolkaAirdrops where they can manage the Airdrop campaing and also claim the NFT airdrops. 
 The PolkaAirdrop is a specific GPT that is viewed and directly accessible by billions of users worldwide that it is using the OpenAI platform. Users can install it for free in their own OpenAI platform. 
@@ -133,9 +137,14 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 ### Ecosystem Fit
 
 *  Where and how does your project fit into the ecosystem?
+
 In our understanding, it will be better fit in the User Interface open-source Polkadot Tech Stack. 
 Our project will offer listing and managing of current Airdrops on the Polkadot ecosystem.
-Up to now, there is no such as solution already implemented int the Polkadot Tech Stack. 
+Up to now, there is no such as solution already implemented in the Polkadot Tech Stack. 
+Our solution, designed to be completely open source, directly benefits Polkadot projects
+by offering them access to our AI-driven automation software stack. 
+This innovative tool is specifically crafted to significantly boost their 
+visibility on social networks, enhancing their outreach and engagement within the digital community.
 
 
 
@@ -149,14 +158,15 @@ Up to now, there is no such as solution already implemented int the Polkadot Tec
   
   Our project, PolkaAirdrops, meets several critical needs in the Polkadot Tech Stack:
 
-  * Enhanced Project Visibility: It addresses the fundamental need for increased visibility and recognition of Polkadot projects within the crowded and competitive cryptocurrency market.
+  * Enhanced Project Visibility: It addresses the fundamental need for increased visibility and recognition of Polkadot projects within the crowded and competitive cryptocurrency market. Currently, there is a lack of ambasadors and influencers embracing
+  Polkadot projects. Our project solves this critical need by automating the crowdsourcing of project ambassadors on social media using 
+  NFT airdrops.
 
-  * Effective Community Engagement: The project provides an effective way for Polkadot projects to engage with and expand their community, particularly by connecting with influencers and ambassadors on social media platforms like Twitter.
+  * Effective Community Engagement: The project provides an effective way for Polkadot projects to engage with and expand their community, particularly by connecting with influencers and ambassadors on social media platforms like Twitter. 
 
   * Automated and Targeted Marketing: Utilizing AI and smart contracts, PolkaPromo AI meets the need for automated, efficient, and targeted marketing campaigns, reducing the manual effort and increasing the precision of promotional activities.
 
   * Rewarding User Participation: By integrating airdrops with social media engagement, our project fulfills the need to incentivize and reward active community participation, which is crucial for building a loyal and enthusiastic user base.
-
 
 
 * Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
@@ -165,15 +175,17 @@ Up to now, there is no such as solution already implemented int the Polkadot Tec
   that uses AI to generate NFT. This project is called ChainGPT, https://www.chaingpt.org.
   This project has been successfully launched in the Ethereum network with a current marketcap of $38 million.
   The main difference is that we are automating the promotion and distribution of NFTs on social networks. 
-  In addition that we ae leveraging the success of OpenAI as the project is being part of the OpenAI ecosystem as well. 
+  In addition,  we are leveraging the global impact of OpenAI by integrating our project to the  current OpenAI ecosystem. 
 
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Jose Carlos Sancho
-- Alexandre Salas 
+- Jose Carlos Sancho, (founder, PhD. in Computer Science, AI and smart contract developer) 
+- Alexander Salas (Full-stack developer and AI developer)
+- Mariana Matheus (social media marketing expert) 
+
 
 ### Contact
 
@@ -188,28 +200,38 @@ Up to now, there is no such as solution already implemented int the Polkadot Tec
 
 ### Team's experience
 
-Our team has extensive experience on developing on different software stacks.
-Our team developed an NFT project in the past. We have a solid programming expertise of NFT smart contract on the EVM Ethernet network.
-In addition, we have expertise on developing on the OpenAI software stack using the openAPI.
-We have developed several OpenAI plugins and specific trained GPTs. 
+Jose Carlos Sancho, founder of AI Agents Lab, currently holds a PhD in Computer Science. 
+10 years experience on blockchain technology, NFTs, and currently in AI Generative Pre-trained Transformers (GPTs).
+Alexander Salas, senior software developer currently contributing to many AI projects. 
+Mariana Matheus, graduated in Business administration with an special interest on marketing on social media. 
+
+Overall, our team has extensive experience on developing different software stacks.
+Our team developed an NFT project in the past. We have a solid programming expertise in NFT smart contracts on the EVM Ethernet network.
+In addition, we have expertise on developing on the OpenAI software stack using the OpenAI API.
+Recently, we have developed several trained GPTs that are public available:
+* Photorealistic: https://chat.openai.com/g/g-lp1vmS7nC-photorealistic
+* BrainWave: https://chat.openai.com/g/g-o74FlvLep-brainwave
+* CryptoMastery: https://chat.openai.com/g/g-xVvJBeYik-crypto-mastery 
+
 
 This is our first time applying to the Web3 Foundation Grants. 
 
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/AI-Agents-Lab/PolkaAirdrops
+
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/jcsancho
+- https://github.com/ajsb85
 
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/josecsancho/
 - https://www.linkedin.com/ajsb85/
+- https://www.linkedin.com/mariana-matheus-872a71262/
 
 
 ## Development Status :open_book:
