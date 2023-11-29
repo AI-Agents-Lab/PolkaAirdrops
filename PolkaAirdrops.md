@@ -172,25 +172,29 @@ Up to now, there is no such as solution already implemented int the Polkadot Tec
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Jose Carlos Sancho
+- Alexandre Salas 
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:**  Jose Carlos Sancho
+- **Contact Email:** aiagentslab@gmail.com
+- **Website:**       aiagentslab.com
 
 ### Legal Structure
 
-- **Registered Address:** (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** 500 4th St NW, Suite 102, Albuquerque, NM 87102, USA.
+- **Registered Legal Entity:** AI Agents Lab LLC
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+Our team has extensive experience on developing on different software stacks.
+Our team developed an NFT project in the past. We have a solid programming expertise of NFT smart contract on the EVM Ethernet network.
+In addition, we have expertise on developing on the OpenAI software stack using the openAPI.
+We have developed several OpenAI plugins and specific trained GPTs. 
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+This is our first time applying to the Web3 Foundation Grants. 
+
 
 ### Team Code Repos
 
@@ -204,8 +208,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/josecsancho/
+- https://www.linkedin.com/ajsb85/
 
 
 ## Development Status :open_book:
