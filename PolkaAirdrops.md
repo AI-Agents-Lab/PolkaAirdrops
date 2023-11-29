@@ -106,23 +106,22 @@ Once users have been installed the PolkaAirdrop in the OpenAI platform they will
 In the figure are depicted the user main actions that will trigger the iteraction with the PolkaAirdrop GPT AI:  
 * _How do I create an airdop for my project?_. In this action the GPT AI will guide through the different steps to set up the airdrop such as defining the project manager address, the project prompt NFT, the requisites for ambassadors to get rewarded the NFT, the duration of the airdrop, and so on. 
 
-* Can you guide me on participation on the airdrop?. This action is foscused to the ambassadors that the GPT AI will inform the ambassadors the actions that they have to perform to gain the NFT reward. 
+* _Can you guide me on participation on the airdrop?_. This action is foscused to the ambassadors that the GPT AI will inform the ambassadors the actions that they have to perform to gain the NFT reward. 
 
-* How do I redeem the airdrop?. This is after the ending the ending of the airdrop campaing, ambassadors can can back here to redeempt the NFT based on their actions or post performed in the Twitter (X). 
+* _How do I redeem the airdrop?_. This is after the ending the ending of the airdrop campaing, ambassadors can can back here to redeempt the NFT based on their actions or post performed in the Twitter (X). 
 
-* What are the current airdrops on the Polkadot network?. This is informative of the current ongoing airdrop that ambassadors can participate to promote the Polkadot project. 
+* _What are the current airdrops on the Polkadot network?_. This is informative of the current ongoing airdrop that ambassadors can participate to promote the Polkadot project. 
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+### Limitations of PolkaAirdrop
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+* We are not intenting to trade NFTs. This is not a marketplace of NFT where anyone can sell and buy NFTs. For this purposes there are already platforms that are focussed on that such as  Mintverse. 
 
+* We are focused on NFT airdrops. The project can be extended to support later on coin-based airdrops as well using a similar architecture. 
 
+* Project promotion is limited to the Twitter social network. Althoug there are multiple social newtwors available such as Youtube, and Instagram. Twitter represents a social network as large as these platform with a Monetizable Daily Active Users (mDAU) of 330 millions.
+Youtube and Instagram have 129 mDAU and 330 mDAU, respectively. 
+Moreover, Twitter has been used as an excellent platform for building communities around crypto projects and also 
+Twitter is home to a large number of crypto influencers, who are individuals with a large following and a high level of credibility among the crypto community. 
 
 
 
