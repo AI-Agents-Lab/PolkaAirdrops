@@ -25,13 +25,13 @@ In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the 
 
 ### Key Features:
 
-*Generative AI-Driven NFT Creation: PolkaPromo AI employs state-of-the-art generative AI algorithms to design and mint unique NFTs. These NFTs are not only visually distinctive but also embed certain characteristics or metadata that align with the crypto project's theme and ethos. This approach ensures that each NFT is exclusive and resonates with the project's branding.
+* Generative AI-Driven NFT Creation: PolkaPromo AI employs state-of-the-art generative AI algorithms to design and mint unique NFTs. These NFTs are not only visually distinctive but also embed certain characteristics or metadata that align with the crypto project's theme and ethos. This approach ensures that each NFT is exclusive and resonates with the project's branding.
 
-*Automated Ambassador Recognition and Reward: The platform uses AI to analyze Twitter for posts displaying positive sentiment towards the crypto project. It identifies key influencers and active community members, categorizing them as project ambassadors. These ambassadors are automatically rewarded with the unique NFTs created by the AI, fostering a sense of exclusivity and belonging.
+* Automated Ambassador Recognition and Reward: The platform uses AI to analyze Twitter for posts displaying positive sentiment towards the crypto project. It identifies key influencers and active community members, categorizing them as project ambassadors. These ambassadors are automatically rewarded with the unique NFTs created by the AI, fostering a sense of exclusivity and belonging.
 
-*Seamless Integration with Twitter and Sentiment Analysis: The integration with Twitter allows PolkaPromo AI to monitor real-time data feeds and apply advanced sentiment analysis. This feature ensures that only genuine and positive engagements are rewarded, enhancing the campaign's effectiveness.
+* Seamless Integration with Twitter and Sentiment Analysis: The integration with Twitter allows PolkaPromo AI to monitor real-time data feeds and apply advanced sentiment analysis. This feature ensures that only genuine and positive engagements are rewarded, enhancing the campaign's effectiveness.
 
-*Smart Contract Automation for NFT Distribution: The distribution of NFTs to ambassadors is governed by smart contracts on the Polkadot network. These contracts are programmed to automatically transfer NFTs to the wallets of identified ambassadors, ensuring a transparent and efficient process.
+* Smart Contract Automation for NFT Distribution: The distribution of NFTs to ambassadors is governed by smart contracts on the Polkadot network. These contracts are programmed to automatically transfer NFTs to the wallets of identified ambassadors, ensuring a transparent and efficient process.
 
 ### Project Details
 
