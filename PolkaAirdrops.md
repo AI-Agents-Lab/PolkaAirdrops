@@ -39,7 +39,7 @@ The integration of generative AI for automatically creating and distributing NFT
 
 The main architecture of the project is depicted in the figure below
 
- ![Architecture of the PolkaAirdrops](./PolkaAirdrops_Architecture.png).
+ ![Architecture of the PolkaAirdrops](./PolkaAirdrops_Architecture.png)
 
 The main components are described here:
 
@@ -67,7 +67,7 @@ Moonbeam is a perfect fit for our project because it allows for building cross-c
 ### PolkaAirdrop UI Mockups 
 
 Our team already developed a mocuk UI in the OpenAI platform for the first GPT module. 
-This is shown in the ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png). 
+This is shown in the ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png)
 There you can see how the users will see our PolkaAirdrops where they can manage the Airdrop campaing and also claim the NFT airdrops. 
 The PolkaAirdrop is a specific GPT that is viewed and directly accessible by billions of users worldwide that it is using the OpenAI platform. Users can install it for free in their own OpenAI platform. 
 
