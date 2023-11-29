@@ -97,13 +97,17 @@ Here is an excerpt of the connection of the backend server to the Moonbeam smart
 
 ### PolkaAirdrop UI Mockups 
 
-Our team already developed an UI mockup in the OpenAI platform for the first GPT module. 
-This is shown in the ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png)
-There you can see how the users will see our PolkaAirdrops where they can manage the Airdrop campaing and also claim the NFT airdrops. 
+Our team already developed an UI mockup in the OpenAI platform for the GPT. 
+This is shown in the figure below.
+
+ ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png)
+
+
+As you can see in the figure, the users will see our PolkaAirdrops applpication where they can manage the Airdrop campaing and also claim the NFT airdrops. 
 The PolkaAirdrop is a specific GPT that is viewed and directly accessible by billions of users worldwide that it is using the OpenAI platform. Users can install it for free in their own OpenAI platform. 
 
 
-Once users have been installed the PolkaAirdrop in the OpenAI platform they will see the main UI of the PolkaAirdrop UI as seen in the figure below. 
+Once users have been installed the PolkaAirdrop, they will see the PolkaAirdrop UI as seen in the figure below. 
 
 ![overview of GPTs in the OpenAI platform](./OpenAI_Polka.png)
 
