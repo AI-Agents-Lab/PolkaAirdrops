@@ -37,13 +37,17 @@ In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the 
 
 The integration of generative AI for automatically creating and distributing NFTs adds a novel dimension to crypto project promotions. This approach not only enhances user engagement but also elevates the perceived value and uniqueness of the project, potentially leading to higher visibility and adoption rates.
 
-The main architecture of the project is depicted in ![Architecture of the PolkaAirdrops](./PolkaAirdrops_Architecture.png).
-The main components are described below:
+The main architecture of the project is depicted in the figure below
+
+ ![Architecture of the PolkaAirdrops](./PolkaAirdrops_Architecture.png).
+
+The main components are described here:
 
 * GPT. This is the front-end component that implements the UI. It is leveraging the GPTs solution of OpenAI platform. OpenAI platform allows to design GPTs to automate the iteraction with users. Our users are defined as the projects or event managers that want to create a viral airdrop compaing on twitter, and also ambassadors that are posting tweets with the goal to propelling the project visibility and thus
 get the NFT reward. The benefit of using the UI OpenAI platform is twofold:
-  * Leverages the 1 billion monthly active user
+  * Leverages the 1 billion monthly active users.
   * It is responsible being supported in both mobile and desktop devices. 
+  * It is the fastest growing company internet right now. 
   
   The own PolkaAirdops GPT allows to interact with project manager to help launching the airdrop campaing by defining the NFT to the project branding and the tweet analysis.  
 
@@ -55,13 +59,24 @@ get the NFT reward. The benefit of using the UI OpenAI platform is twofold:
   * It mints the particular NFT that will be rewarded to the ambassadors using the web3 python api. This api allows to mint the NFT in the Polkadot MoonBeam network.
 
 
-* MoonBeam smart contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to mint and distribute the NFTs to the rewarded ambassadors.  
+* Moonbeam smart contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to mint and distribute the NFTs to the rewarded ambassadors. The project manager of the airdrop must send GLMR coins to the factory smart contract to create the propietary project NFT smart contract. 
+Moonbeam is a perfect fit for our project because it allows for building cross-chain connected applications in the Polkadot ecosystem. Moonbeam powers dApps that can access users, assets, and services on any chain. Moreover Moonbeam leverage EVM complatible smart contracts programming where out team has extensive expertise. 
+
+
+
+### PolkaAirdrop UI Mockups 
 
 Our team already developed a mocuk UI in the OpenAI platform for the first GPT module. 
 This is shown in the ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png). 
-There you can see how the users will see out 
+There you can see how the users will see our PolkaAirdrops where they can manage the Airdrop campaing and also claim the NFT airdrops. 
+The PolkaAirdrop is a specific GPT that is viewed and directly accessible by billions of users worldwide that it is using the OpenAI platform. Users can install it for free in their own OpenAI platform. 
+
+
+Once users have been installed the PolkaAirdrop in the OpenAI platform they will see the main UI of the PolkaAirdrop UI as seen in the figure below. 
 
 ![overview of GPTs in the OpenAI platform](./OpenAI_Polka.png)
+
+
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
