@@ -127,26 +127,45 @@ Youtube and Instagram have 129 mDAU and 330 mDAU, respectively.
 Moreover, Twitter has been used as an excellent platform for building communities around crypto projects and also 
 Twitter is home to a large number of crypto influencers, who are individuals with a large following and a high level of credibility among the crypto community. 
 
+* It is not a NFT wallet. PolkaAirdrop is not a wallet to view your NFTs. For this purpose you can use the Talisman wallet. PolkaAirdrop is only designed to automate the distribution of airdrops.
 
 
 ### Ecosystem Fit
 
-- Where and how does your project fit into the ecosystem?
+*  Where and how does your project fit into the ecosystem?
+In our understanding, it will be better fit in the User Interface open-source Polkadot Tech Stack. 
+Our project will offer listing and managing of current Airdrops on the Polkadot ecosystem.
+Up to now, there is no such as solution already implemented int the Polkadot Tech Stack. 
 
 
 
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+*  Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+
+   Our target audience primarily consists of Polkadot project marketing teams aiming to extend their reach to a broader audience. Additionally, our project introduces an unparalleled solution in bridging the gap between social network influencers and ambassadors and the Polkadot project marketing teams. This innovative merging is designed to create a mutually beneficial ecosystem where influencers and ambassadors can significantly amplify the visibility and appeal of Polkadot projects, driving engagement and adoption in the wider crypto community. Through this strategic alignment, PolkaAirdrops sets a new standard in digital marketing within the blockchain space, offering a unique and powerful tool for Polkadot projects to stand out in an increasingly competitive market.
 
 
 
-- What need(s) does your project meet?
+*  What need(s) does your project meet?
+  
+  Our project, PolkaAirdrops, meets several critical needs in the Polkadot Tech Stack:
+
+  * Enhanced Project Visibility: It addresses the fundamental need for increased visibility and recognition of Polkadot projects within the crowded and competitive cryptocurrency market.
+
+  * Effective Community Engagement: The project provides an effective way for Polkadot projects to engage with and expand their community, particularly by connecting with influencers and ambassadors on social media platforms like Twitter.
+
+  * Automated and Targeted Marketing: Utilizing AI and smart contracts, PolkaPromo AI meets the need for automated, efficient, and targeted marketing campaigns, reducing the manual effort and increasing the precision of promotional activities.
+
+  * Rewarding User Participation: By integrating airdrops with social media engagement, our project fulfills the need to incentivize and reward active community participation, which is crucial for building a loyal and enthusiastic user base.
 
 
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  Ou project is unique in the Polkadot ecosystem. However, recently it has been launch this year (2023) a similar project 
+
+* Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+
+  Our project is unique in the Polkadot ecosystem. However, recently it has been launch this year (2023) a similar project 
   that uses AI to generate NFT. This project is called ChainGPT, https://www.chaingpt.org.
   This project has been successfully launched in the Ethereum network with a current marketcap of $38 million.
   The main difference is that we are automating the promotion and distribution of NFTs on social networks. 
+  In addition that we ae leveraging the success of OpenAI as the project is being part of the OpenAI ecosystem as well. 
 
 
 ## Team :busts_in_silhouette:
