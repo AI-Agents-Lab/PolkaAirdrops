@@ -25,21 +25,37 @@ In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the 
 
 ### Key Features:
 
-* Generative AI-Driven NFT Creation: PolkaPromo AI employs state-of-the-art generative AI algorithms to design and mint unique NFTs. These NFTs are not only visually distinctive but also embed certain characteristics or metadata that align with the crypto project's theme and ethos. This approach ensures that each NFT is exclusive and resonates with the project's branding.
+* Generative AI-Driven NFT Creation: PolkaAirdrops allows to design and mint unique NFTs. These NFTs are not only visually distinctive but also embed certain characteristics or metadata that align with the crypto project's theme and ethos. This approach ensures that each NFT is exclusive and resonates with the project's branding.
 
 * Automated Ambassador Recognition and Reward: The platform uses AI to analyze Twitter for posts displaying positive sentiment towards the crypto project. It identifies key influencers and active community members, categorizing them as project ambassadors. These ambassadors are automatically rewarded with the unique NFTs created by the AI, fostering a sense of exclusivity and belonging.
 
-* Seamless Integration with Twitter and Sentiment Analysis: The integration with Twitter allows PolkaPromo AI to monitor real-time data feeds and apply advanced sentiment analysis. This feature ensures that only genuine and positive engagements are rewarded, enhancing the campaign's effectiveness.
+* Seamless Integration with Twitter and Sentiment Analysis: The integration with Twitter allows PolkaAirdrops  to monitor real-time data feeds and apply advanced sentiment analysis. This feature ensures that only genuine and positive engagements are rewarded, enhancing the campaign's effectiveness.
 
 * Smart Contract Automation for NFT Distribution: The distribution of NFTs to ambassadors is governed by smart contracts on the Polkadot network. These contracts are programmed to automatically transfer NFTs to the wallets of identified ambassadors, ensuring a transparent and efficient process.
 
 ### Project Details
 
-The integration of generative AI for creating and distributing NFTs adds a novel dimension to crypto project promotions. This approach not only enhances user engagement but also elevates the perceived value and uniqueness of the project, potentially leading to higher visibility and adoption rates.
+The integration of generative AI for automatically creating and distributing NFTs adds a novel dimension to crypto project promotions. This approach not only enhances user engagement but also elevates the perceived value and uniqueness of the project, potentially leading to higher visibility and adoption rates.
+
+The main architecture of the project is depicted in ![Architecture of the PolkaAirdrops](./PolkaAirdrops_Architecture.png).
+The main components are described below:
+
+* GPT. This is the front-end component that implements the UI. It is leveraging the GPTs solution of OpenAI platform. OpenAI platform allows to design GPTs to automate the iteraction with users. Our users are defined as the projects or event managers that want to create a viral airdrop compaing on twitter, and also ambassadors that are posting tweets with the goal to propelling the project visibility and thus
+get the NFT reward. The benefit of using the UI OpenAI platform is twofold: 1) Leverages the 1 billion monthly active user and 2) it is responsible being supported in both mobile and desktop devices. The own PolkaAirdops GPT allows to interact with project manager to help launching the airdrop campaing by defining the NFT to the project branding and the tweet analysis.  
+
+* Backend server. This represents the core of the PolkaAirdrop platform. It is implemented enterely with python. Its main functions are described below:
+1. It exposes an API so the GPT can interact with the backend service to create the airdrop campaing. In this process the airdrop project specific prompt will be stored encrypted in the public IPFS. 
+2. It uses the twitter public API to collect the ambassador tweets. 
+3. It uses the propetary OpenAI GPT4 to perform the accurate sentiment analysis of the the tweets and check that are related to the aridrop project.   
+4. It creates the unique NFT following the prompt instructions already set up by the airdrop project. For this it will use the propetary OpenAI DALLE-3 API. This unique NFT will be stored in the IPFS. 
+5. It mints the particular NFT that will be rewarded to the ambassadors using the web3 python api. This api allows to mint the NFT in the Polkadot MoonBeam network.
 
 
+* MoonBeam smart contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to mint and distribute the NFTs to the rewarded ambassadors.  
 
-![Architecture of the PolkaAirdrops](./PolkaAirdrops_Architecture.png)
+Our team already developed a mocuk UI in the OpenAI platform for the first GPT module. 
+This is shown in the ![overview of GPTs in the OpenAI platform](./PolkaAirdrops_Architecture.png). 
+There you can see how the users will see out 
 
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
