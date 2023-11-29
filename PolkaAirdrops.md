@@ -307,9 +307,9 @@ If you've already started implementing your project or it is part of a larger re
 * We will extend the PolkaAirdrop project to support token-based airdrops.
 * We will extend the promotion of airdrops on other popular social media networks such as Instagram or WeChat.
 
-The project will be maintained after the grant as using with own funds, and also the project 
-is proposing a unique business model already being used in other similar platforms such as chainGPT as commented before. 
-This business model is based on collecting a fee  for each NFT project launch the platfrom.
+The project will be maintained after the grant. We will use own funds, and also the project 
+is proposing a unique business model already being used in other similar platforms such as chainGPT project. 
+This business model is based on collecting a fee for each NFT project launch in the platfrom.
 
 
 ## Additional Information :heavy_plus_sign:
