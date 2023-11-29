@@ -116,10 +116,10 @@ In the figure are depicted the user main actions that will trigger the iteractio
 
 * We are not intenting to trade NFTs. This is not a marketplace of NFT where anyone can sell and buy NFTs. For this purpose there are already platforms that are offering these services such as  Mintverse. 
 
-* We are focused on NFT airdrops only. The project can be extended to support later on token-based airdrops as well using a similar architecture. What are the benefits of NFT airdrops?
- * Early access and exclusive benefits: NFT airdrops may provide users with early access to new features, exclusive content, or other perks. This can give them a sense of privilege and make them feel more invested in the project.
- * Potential value: Users can receive valuable NFTs for free, which could potentially increase in value over time. This can be an attractive incentive for users to participate in airdrops.
- * Increased visibility and shareability. NFT airdrops are highly shareable in social network due to the visual nature of the NFT. 
+* We are focused on NFT airdrops only. The project can be extended to support later on token-based airdrops as well using a similar architecture. However, NFT airdrops provide value benefits to respect to token-based airdrops: 
+  * Early access and exclusive benefits: NFT airdrops may provide users with early access to new features, exclusive content, or other perks. This can give them a sense of privilege and make them feel more invested in the project.
+  * Potential value: Users can receive valuable NFTs for free, which could potentially increase in value over time. This can be an attractive incentive for users to participate in airdrops.
+  * Increased visibility and shareability. NFT airdrops are highly shareable in social network due to the visual nature of the NFT. 
 
 
 * Project promotion is limited to the Twitter social network. Althoug there are multiple social newtwors available such as Youtube, and Instagram. Twitter represents a social network as large as these platform with a Monetizable Daily Active Users (mDAU) of 330 millions.
