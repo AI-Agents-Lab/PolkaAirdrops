@@ -97,13 +97,13 @@ Here is an excerpt of the connection of the backend server to the Moonbeam smart
 
 ### PolkaAirdrop UI Mockups 
 
-Our team already developed an UI mockup in the OpenAI platform for the GPT. 
+Our team already developed an UI mockup in the OpenAI platform for our PolkaAirdrops GPT AI. 
 This is shown in the figure below.
 
  ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png)
 
 
-As you can see in the figure, the users will see our PolkaAirdrops applpication where they can manage the Airdrop campaing and also claim the NFT airdrops. 
+As you can see in the figure, the users will see our PolkaAirdrops GPT AI  where they can manage the Airdrop campaing and also claim the NFT airdrops. 
 The PolkaAirdrop is a specific GPT that is viewed and directly accessible by billions of users worldwide that it is using the OpenAI platform. Users can install it for free in their own OpenAI platform. 
 
 
@@ -111,12 +111,12 @@ Once users have been installed the PolkaAirdrop, they will see the PolkaAirdrop 
 
 ![overview of GPTs in the OpenAI platform](./OpenAI_Polka.png)
 
-In the figure are depicted the user main actions that will trigger the iteraction with the PolkaAirdrop GPT AI:  
+In the figure, they are depicted the user main actions that will trigger the iteraction with the PolkaAirdrop GPT AI:  
 * _How do I create an airdop for my project?_. In this action the GPT AI will guide through the different steps to set up the airdrop such as defining the project manager address, the project prompt NFT, the requisites for ambassadors to get rewarded the NFT, the duration of the airdrop, and so on. 
 
 * _Can you guide me on participation on the airdrop?_. This action is foscused to the ambassadors that the GPT AI will inform the ambassadors the actions that they have to perform to gain the NFT reward. 
 
-* _How do I redeem the airdrop?_. This is after the ending the ending of the airdrop campaing, ambassadors can can back here to redeempt the NFT based on their actions or post performed in the Twitter social network. 
+* _How do I redeem the airdrop?_. This is after the ending the ending of the airdrop campaing, ambassadors can can back here to redeempt the NFT based on their posts performed in the Twitter social network. 
 
 * _What are the current airdrops on the Polkadot network?_. This is informative of the current ongoing airdrop that ambassadors can participate to promote the Polkadot project. 
 
@@ -142,9 +142,11 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 
 *  Where and how does your project fit into the ecosystem?
 
-  In our understanding, it will be better fit in the User Interface open-source Polkadot Tech Stack. 
+  It will be fit in the User Interface open-source Polkadot Tech Stack. 
   Our project will offer listing and managing of current Airdrops on the Polkadot ecosystem.
+  
   Up to now, there is no such as solution already implemented in the Polkadot Tech Stack. 
+  
   Our solution, designed to be completely open source, directly benefits Polkadot projects
   by offering them access to our AI-driven automation software stack. 
   This innovative tool is specifically crafted to significantly boost their 
