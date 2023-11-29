@@ -287,8 +287,11 @@ If you've already started implementing your project or it is part of a larger re
 | **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with the NFT smart contract factory. |
 | **0e.** | Article | We will publish an article video that explains the functionality of the project. First, from the project manager we will show how to create an airdrop campaing. And lastly, from the ambassador side, we will show how to participate and redeem NFTs. |
 
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| 1. | Factory Smart contract  | We will deliver  the Moonbeam smart contract factory that will create the different project smart contracts. |
+| 2. | NFT Dynamic Smart contract | We will deliver the Moonbeam dynamic smart contract for projects that will mint the NFTs and distribute the NFTs. |
+| 3. | Backend API  | We will develop the API in the backend server to interact with the smart contract factory.  |
+| 4. | Monetization | We will develop the platform monetization mechanism to support future further developments.  |
+| 5. | Testing smart contracts  | Testing the smart contract robustness and functionality as well as the monetization mechanism.  |
 
 
 
@@ -296,12 +299,15 @@ If you've already started implementing your project or it is part of a larger re
 
 ## Future Plans
 
-Please include here
+* We will extend the PolkaAirdrop project to support token-based airdrops.
+* We will extend the promotion of airdrops on other popular social media networks such as Instagram or WeChat.
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+The project will be maintained after the grant as using with own funds, and also the project 
+is proposing a unique business model already being used in other similar platforms such as chainGPT as commented before. 
+This business model is based on collecting a fee  for each NFT project launch the platfrom.
 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Announcement by CoinReference Team
+
+**How did you hear about the Grants Program?** Announcement by the Polkadot CoinReference Team
