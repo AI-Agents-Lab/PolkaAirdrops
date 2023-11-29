@@ -108,15 +108,19 @@ In the figure are depicted the user main actions that will trigger the iteractio
 
 * _Can you guide me on participation on the airdrop?_. This action is foscused to the ambassadors that the GPT AI will inform the ambassadors the actions that they have to perform to gain the NFT reward. 
 
-* _How do I redeem the airdrop?_. This is after the ending the ending of the airdrop campaing, ambassadors can can back here to redeempt the NFT based on their actions or post performed in the Twitter (X). 
+* _How do I redeem the airdrop?_. This is after the ending the ending of the airdrop campaing, ambassadors can can back here to redeempt the NFT based on their actions or post performed in the Twitter social network. 
 
 * _What are the current airdrops on the Polkadot network?_. This is informative of the current ongoing airdrop that ambassadors can participate to promote the Polkadot project. 
 
-### Limitations of PolkaAirdrop
+###  PolkaAirdrop's Limitations 
 
-* We are not intenting to trade NFTs. This is not a marketplace of NFT where anyone can sell and buy NFTs. For this purposes there are already platforms that are focussed on that such as  Mintverse. 
+* We are not intenting to trade NFTs. This is not a marketplace of NFT where anyone can sell and buy NFTs. For this purpose there are already platforms that are offering these services such as  Mintverse. 
 
-* We are focused on NFT airdrops. The project can be extended to support later on coin-based airdrops as well using a similar architecture. 
+* We are focused on NFT airdrops only. The project can be extended to support later on token-based airdrops as well using a similar architecture. What are the benefits of NFT airdrops?
+ * Early access and exclusive benefits: NFT airdrops may provide users with early access to new features, exclusive content, or other perks. This can give them a sense of privilege and make them feel more invested in the project.
+ * Potential value: Users can receive valuable NFTs for free, which could potentially increase in value over time. This can be an attractive incentive for users to participate in airdrops.
+ * Increased visibility and shareability. NFT airdrops are highly shareable in social network due to the visual nature of the NFT. 
+
 
 * Project promotion is limited to the Twitter social network. Althoug there are multiple social newtwors available such as Youtube, and Instagram. Twitter represents a social network as large as these platform with a Monetizable Daily Active Users (mDAU) of 330 millions.
 Youtube and Instagram have 129 mDAU and 330 mDAU, respectively. 
@@ -127,14 +131,23 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
-
 - Where and how does your project fit into the ecosystem?
+
+
+
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+
+
+
 - What need(s) does your project meet?
+
+
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+  Ou project is unique in the Polkadot ecosystem. However, recently it has been launch this year (2023) a similar project 
+  that uses AI to generate NFT. This project is called ChainGPT, https://www.chaingpt.org.
+  This project has been successfully launched in the Ethereum network with a current marketcap of $38 million.
+  The main difference is that we are automating the promotion and distribution of NFTs on social networks. 
+
 
 ## Team :busts_in_silhouette:
 
