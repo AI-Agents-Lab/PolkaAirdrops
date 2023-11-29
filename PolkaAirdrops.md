@@ -54,9 +54,10 @@ get the NFT reward. The benefit of using the UI OpenAI platform is twofold: 1) L
 * MoonBeam smart contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to mint and distribute the NFTs to the rewarded ambassadors.  
 
 Our team already developed a mocuk UI in the OpenAI platform for the first GPT module. 
-This is shown in the ![overview of GPTs in the OpenAI platform](./PolkaAirdrops_Architecture.png). 
+This is shown in the ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png). 
 There you can see how the users will see out 
 
+![overview of GPTs in the OpenAI platform](./OpenAI_Polka.png)
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
