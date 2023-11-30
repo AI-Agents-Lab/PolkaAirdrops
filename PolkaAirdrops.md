@@ -107,7 +107,7 @@ Once users have been installed the PolkaAirdrop, they will see the PolkaAirdrop 
 
 ![overview of GPTs in the OpenAI platform](./OpenAI_Polka.png)
 
-In the figure, they are depicted the user main actions that will trigger the iteraction with the PolkaAirdrop GPT AI:  
+In the figure, there are shown at the bottom the user main actions that will trigger the iteraction with the PolkaAirdrop GPT AI:  
 * _How do I create an airdop for my project?_. In this action the GPT AI will guide through the different steps to set up the airdrop such as defining the project manager address, the project prompt NFT, the requisites for ambassadors to get rewarded the NFT, the duration of the airdrop, and so on. 
 
 * _Can you guide me on participation on the airdrop?_. This action is foscused to the ambassadors that the GPT AI will inform the ambassadors the actions that they have to perform to gain the NFT reward. 
@@ -235,6 +235,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 
 ## Development Status :open_book:
+
+
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
