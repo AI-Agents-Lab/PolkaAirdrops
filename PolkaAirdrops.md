@@ -244,8 +244,12 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 We have started to design and configure the PolkaAirdrops GPT, as you can see in 
 the screenshots showed above and the project Github page. 
+In addition, ongoing work have been also performed
+in defining the overall architecture of the PolkaAirdrop platform in detail,
+as you can see in this proposal.
 
-We have also researched in the Polkadot Forum and found two exposed 
+Furthermore, we have also been researching the Polkadot Forum.
+We have found two exposed 
 critical  top priorities in Polkadot ecosystem which
 are (1) Marketing and (2) BizDev as you can see in the following post:
 https://forum.polkadot.network/t/make-polkadot-great-again/4004
@@ -255,7 +259,8 @@ These top priorities align well with the direction of our project,
 PolkaAirdrops, which is addressing these critical areas through its innovative use of AI in marketing and community engagement within the Polkadot network. 
 In addition,  PolkaAirdrops is well-aligned with the business development (BizDev) 
 by implementing a fee for each airdrop.
-In this way, PolkaAirdrops not only ensures a sustainable revenue stream but also reinforces its role as a key player in the business development of the network.
+In this way, PolkaAirdrops not only ensures a sustainable revenue stream but also reinforces its role as a key player in the business development of the network using 
+cutting-edge AI technologies.
 
 
 
