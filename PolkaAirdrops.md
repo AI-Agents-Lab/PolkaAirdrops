@@ -113,12 +113,12 @@ Once users have been installed the PolkaAirdrop, they will see the PolkaAirdrop 
 
 ![overview of GPTs in the OpenAI platform](./OpenAI_Polka.png)
 
-In the figure, there are shown at the bottom the user main actions that will trigger the iteraction with the PolkaAirdrop GPT AI:  
-* _How do I create an airdop for my project?_. In this action the GPT AI will guide through the different steps to set up the airdrop such as defining the project manager address, the project prompt NFT, the requisites for ambassadors to get rewarded the NFT, the duration of the airdrop, and so on. 
+In the figure, there are shown at the bottom the user main actions that will trigger the iteraction with the PolkaAirdrop GPT:  
+* _How do I create an airdop for my project?_. In this action the GPT will guide through the different steps to set up the airdrop such as defining the project manager address, the project prompt NFT, the requisites for ambassadors to get rewarded the NFT, the duration of the airdrop, among others configurations. 
 
 * _Can you guide me on participation on the airdrop?_. This action is foscused to the ambassadors that the GPT AI will inform the ambassadors the actions that they have to perform to gain the NFT reward. 
 
-* _How do I redeem the airdrop?_. This is after the ending of the airdrop campaing, ambassadors can can back here to redeempt the NFT based on their posts performed in the Twitter social network. 
+* _How do I redeem the airdrop?_. This is after the ending of the airdrop campaing, ambassadors can come back here to redeempt the NFT based on their posts performed in the Twitter social network. 
 
 * _What are the current airdrops on the Polkadot network?_. This is informative of the current ongoing airdrop that ambassadors can participate to promote the Polkadot project. 
 
@@ -132,12 +132,12 @@ In the figure, there are shown at the bottom the user main actions that will tri
   * Increased visibility and shareability. NFT airdrops are highly shareable in social network due to the visual nature of the NFT. 
 
 
-* Project promotion is limited to the Twitter social network. Althoug there are multiple social newtwors available such as Youtube, and Instagram. Twitter represents a social network as large as these platform with a Monetizable Daily Active Users (mDAU) of 330 millions.
+* Project promotion is limited to the Twitter social network. Althoug there are multiple social networks available such as Youtube, and Instagram. Twitter represents a social network as large as these platform with a Monetizable Daily Active Users (mDAU) of 330 millions.
 Youtube and Instagram have 129 mDAU and 330 mDAU, respectively. 
 Moreover, Twitter has been used as an excellent platform for building communities around crypto projects and also 
 Twitter is home to a large number of crypto influencers, who are individuals with a large following and a high level of credibility among the crypto community. 
 
-* It is not a NFT wallet. PolkaAirdrop is not a wallet to view your NFTs. For this purpose you can use the Talisman wallet. PolkaAirdrop is only designed to automate the distribution of airdrops.
+* It is not a NFT wallet. Our project is not a crypto wallet to view your NFTs. For this purpose you can use the Talisman wallet. PolkaAirdrop is only designed to automate the distribution of airdrops.
 
 
 ### Ecosystem Fit
@@ -145,7 +145,7 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 *  Where and how does your project fit into the ecosystem?
 
   It will be fit in the User Interface open-source Polkadot Tech Stack. 
-  Our project will offer listing and managing of current Airdrops on the Polkadot ecosystem.
+  Our project will offer listing and managing of current airdrops on the Polkadot ecosystem.
   
   Up to now, there is no such as solution already implemented in the Polkadot Tech Stack. 
   
@@ -250,8 +250,9 @@ as you can see in this proposal.
 
 Furthermore, we have also been researching the Polkadot Forum.
 We have found two exposed 
-critical  top priorities in Polkadot ecosystem which
-are (1) Marketing and (2) BizDev as you can see in the following post:
+critical top priorities in the Polkadot ecosystem which
+are (1) Marketing and (2) BizDev as you can see in the following recent post 
+in the Polkadot Forum:
 https://forum.polkadot.network/t/make-polkadot-great-again/4004
 
 
@@ -259,8 +260,7 @@ These top priorities align well with the direction of our project,
 PolkaAirdrops, which is addressing these critical areas through its innovative use of AI in marketing and community engagement within the Polkadot network. 
 In addition,  PolkaAirdrops is well-aligned with the business development (BizDev) 
 by implementing a fee for each airdrop.
-In this way, PolkaAirdrops not only ensures a sustainable revenue stream but also reinforces its role as a key player in the business development of the network using 
-cutting-edge AI technologies.
+In this way, PolkaAirdrops not only ensures a sustainable revenue stream but also reinforces its role as a key player in the business development of the Polkadot ecosystem using cutting-edge AI technologies.
 
 
 
@@ -284,11 +284,11 @@ cutting-edge AI technologies.
 | **0b.** | Documentation | We will provide technical documents and user guides |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with the GPT trained. |
-| 1.      |  UI Design        | We will design the main actions for creation, managing, and participating Airdrops in the GPT UI. |
-| 2.      |  GPT training     | We will train the GPT to perform the different actions designed previously. |
+| 1.      |  UI Design        | We will design the main actions for creation, managing, and participating airdrops in the GPT UI. |
+| 2.      |  GPT Training     | We will train the GPT to perform the different actions designed previously. |
 | 3.      |  GPT API          | We will implement the GPT api calls that will interface with the backend server.  |
-| 4.      |  NFT creation     | We will implement the NFT creation functions in the backend server using the  openAI API to create NFTs.|
-| 5.      |  IPFS storage     | We will implement the IPFS functions to store  the NFTs and promtps in the backend server.  |
+| 4.      |  NFT Creation     | We will implement the NFT creation functions in the backend server using the  openAI API to create NFTs.|
+| 5.      |  IPFS Storage     | We will implement the IPFS functions to store  the NFTs and promtps in the backend server.  |
 | 6.      |  Twitter          | We will implement the sentiment analysis funtionality in the backend server using the Twitter API.  |
 | 7.      |  Testing GPT      | Testing the implemented components above. Achieve a testing coverage of the functionalities above 90%  |
 
@@ -306,11 +306,11 @@ cutting-edge AI technologies.
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.|
 | **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with the NFT smart contract factory. |
 | **0e.** | Article | We will publish an article video that explains the functionality of the project. First, from the project manager we will show how to create an airdrop campaing. And lastly, from the ambassador side, we will show how to participate and redeem NFTs. |
-| 1. | Factory Smart contract  | We will deliver  the Moonbeam smart contract factory that will create the different project smart contracts. |
-| 2. | NFT Dynamic Smart contract | We will deliver the Moonbeam dynamic smart contract for projects that will mint the NFTs and distribute the NFTs. |
+| 1. | Factory Smart Contract  | We will deliver  the Moonbeam smart contract factory that will create the different project smart contracts. |
+| 2. | NFT Dynamic Smart Contract | We will deliver the Moonbeam dynamic smart contract for projects that will mint the NFTs and distribute the NFTs. |
 | 3. | Backend API  | We will develop the API in the backend server to interact with the smart contract factory.  |
 | 4. | Monetization | We will develop the platform monetization mechanism to support future further developments.  |
-| 5. | Testing smart contracts  | Testing the smart contract robustness and functionality as well as the monetization mechanism.  |
+| 5. | Testing Smart Contracts  | Testing the smart contract robustness and functionality as well as the monetization mechanism.  |
 
 
 
@@ -322,8 +322,8 @@ cutting-edge AI technologies.
 * We will extend the promotion of airdrops on other popular social media networks such as Instagram or WeChat.
 
 The project will be maintained after the grant. We will use own funds, and also the project 
-is proposing a unique business model already being used in other similar platforms such as chainGPT project. 
-This business model is based on collecting a fee for each NFT project launch in the platfrom.
+is proposing a unique business model already being used in other similar platforms such as the ChainGPT project. 
+In particular, this business model is based on collecting a fee for each NFT project launch in the platfrom.
 
 
 ## Additional Information :heavy_plus_sign:
