@@ -10,7 +10,7 @@
 ### Overview
 
 PolkaAirdrops is an AI-powered airdrop automation platform tailored for crypto projects on the Polkadot network.
-Its standout feature is the integration of generative AI technology to create unique NFTs and automate their distribution using the power  AI sentiment analysis to active project ambassadors on social media, particularly Twitter.
+Its standout feature is the integration of generative AI technology to create unique NFTs and automate their distribution using the power of AI sentiment analysis to active project ambassadors on social media, particularly Twitter.
 
 Airdrops have proven to be a highly effective method for the marketing and promotion of crypto projects, garnering extensive reach and impact. Notable examples include the Axie Infinity airdrop in 2021, which attracted more than 2 million participants. In 2023, the chainGPT airdrop also made a significant impact, drawing in close to 1 million participants.
 
@@ -21,9 +21,9 @@ fostering community engagement and attracting potential investors and users to P
 
 The immense potential we see in combining the power of airdrops with the expansive reach of social networks like Twitter provides an exceptional opportunity to amplify the visibility and appeal of Polkadot projects, reaching a diverse and extensive global audience in a way that is both innovative and highly effective.
 
-In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the cutting-edge capabilities of Generative Pre-trained Transformers (GPTs) for advanced natural language processing, sentiment analysis and art creation. This technology enables us to intelligently and automatically identify and reward positive social media engagements with precision. Simultaneously, we are utilizing EVM-compatible Moonbeam smart contracts to ensure seamless, secure, and cross-chain airdrop distributions. This harmonious integration of GPTs with  Moonbeam's cross-chain functionality is propelling us towards achieving our goal of elevating Polkadot projects' visibility on a global scale.
+In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the cutting-edge capabilities of Generative Pre-trained Transformers (GPTs) for advanced natural language processing, sentiment analysis, and art creation. This technology enables us to intelligently and automatically identify and reward positive social media engagements with precision. Simultaneously, we are utilizing EVM-compatible Moonbeam smart contracts to ensure seamless, secure, and cross-chain airdrop distributions. This harmonious integration of GPTs with  Moonbeam's cross-chain functionality is propelling us toward achieving our goal of elevating Polkadot projects' visibility on a global scale.
 
-In addition, the use of AI-driven airdrops can be effectively utilized not only for general promotion in social media but also for specific purposes such as highlighting project upgrades, events, and even rewarding attendance at conferences. 
+In addition, the use of AI-driven airdrops can be effectively utilized not only for general promotion in social media but also for specific purposes such as highlighting project upgrades, and events, and even rewarding attendance at conferences. 
 In  the last case, by offering attendances unique NFTs for their participation not only increases event visibility but also adds an element of excitement and exclusivity around attending these events.
 
 In summary, PolkaAirdrops represents a significant step forward in the intersection of AI and blockchain technology, particularly in the realm of cryptocurrency marketing and community engagement. 
@@ -31,9 +31,9 @@ In summary, PolkaAirdrops represents a significant step forward in the intersect
 
 ### Key Features:
 
-* Generative AI-Driven NFT Creation: PolkaAirdrops allows to design and mint unique NFTs. These NFTs are not only visually distinctive but also embed certain characteristics or metadata that align with the crypto project's theme and ethos. This approach ensures that each NFT is exclusive and resonates with the project's branding.
+* Generative AI-Driven NFT Creation: PolkaAirdrops allows to design and minting of unique NFTs. These NFTs are not only visually distinctive but also embed certain characteristics or metadata that align with the crypto project's theme and ethos. This approach ensures that each NFT is exclusive and resonates with the project's branding.
 
-* Automated Reward Distribution: The platform uses AI to analyze Twitter for posts displaying positive sentiment towards the crypto project. It identifies key active community members, categorizing them as project ambassadors. These ambassadors participanting on the airdrop will be automatically rewarded with the unique NFTs created by the AI, fostering a sense of exclusivity and belonging. 
+* Automated Reward Distribution: The platform uses AI to analyze Twitter for posts displaying positive sentiment towards the crypto project. It identifies key active community members, categorizing them as project ambassadors. These ambassadors participating in the airdrop will be automatically rewarded with the unique NFTs created by the AI, fostering a sense of exclusivity and belonging. 
 
 * SnowBall Effect Project Visibility: As more individuals share positive tweets, the number of participants in the airdrop escalates, creating a snowball effect on the social network. Each new ambassador joining the campaign and contributing positive content further amplifies this momentum. Subsequently, these participating ambassadors are automatically rewarded with distinctive NFTs generated by the AI, nurturing an environment of exclusivity and community belonging. This process not only incentivizes continued positive engagement but also significantly broadens the project's reach and impact on the platform.
 
@@ -50,19 +50,19 @@ The main architecture of the project is depicted in the figure below
 
 The main components are described here:
 
-* PolkaAirdrops GPT. This is the front-end component that implements the UI. It is leveraging the GPTs solution of OpenAI platform. OpenAI platform allows to design GPTs to automate the iteraction with users. Our users are defined as the projects or event managers that want to create a viral airdrop compaing on twitter, and also ambassadors and individuals that are posting tweets with the goal to propelling the project visibility. The benefit of using the open UI OpenAI platform is threefold:
+* PolkaAirdrops GPT. This is the front-end component that implements the UI. It is leveraging the GPT solution of the OpenAI platform. OpenAI platform allows to design of GPTs to automate the interaction with users. Our users are defined as the projects or event managers who want to create a viral airdrop campaign on Twitter, and also ambassadors and individuals who are posting tweets to propel the project's visibility. The benefit of using the open UI OpenAI platform is threefold:
   * Leverages 1 billion monthly active users in OpenAI GPTs.
-  * GPTs are supported in both mobile and desktop devices. 
-  * OpenAI is the fastest growing company in internet today. 
+  * GPTs are supported on both mobile and desktop devices. 
+  * OpenAI is the fastest-growing company on the internet today. 
   
-  Our PolkaAirdops GPT allows to interact with project managers to help launching their airdrop campaing seamlesly. Our GPT will guide project managers to define the NFT promtp to the project branding, and also define the required requirements for the twitter post analysis.  
+  Our PolkaAirdops GPT allows you to interact with project managers to help launch their airdrop campaigns seamlessly. Our GPT will guide project managers to define the NFT prompt for the project branding and also define the required requirements for the Twitter post analysis.  
 
-* PolkaAirdops Backend Server. This represents the core of the PolkaAirdrop platform. It is implemented enterely with Python. Its main functions are described below:
-  * It exposes an API so the GPT can interact with the backend service to create the airdrop campaing. In this process, the airdrop project specific prompt will be stored and encrypted in the public IPFS. 
-  * It uses the twitter public API to collect the ambassador tweets. 
-  * It uses the propetary OpenAI GPT4 to perform the accurate sentiment analysis on the tweets and check that are related to the aridrop project.   
-  * It creates the unique NFT following the prompt instructions already set up by the airdrop project. For this sake, it will use the propetary OpenAI DALLE-3 API. This unique NFT will be stored in the IPFS using the python IPFS API where we updload the NFT and obtain back the IPFS URI to mint later the NFT using the project smart contract.
-  Below it is an example of the call to the DALLE-3 to generate a NFT:
+* PolkaAirdops Backend Server. This represents the core of the PolkaAirdrop platform. It is implemented entirely with Python. Its main functions are described below:
+  * It exposes an API so the GPT can interact with the backend service to create the airdrop campaign. In this process, the airdrop project-specific prompt will be stored and encrypted in the public IPFS. 
+  * It uses the Twitter public API to collect the ambassador tweets. 
+  * It uses the proprietary OpenAI GPT4 to perform accurate sentiment analysis on the tweets and checks that are related to the airdrop project.   
+  * It creates the unique NFT following the prompt instructions already set up by the airdrop project. For this sake, it will use the proprietary OpenAI DALLE-3 API. This unique NFT will be stored in the IPFS using the Python IPFS API where we upload the NFT and obtain back the IPFS URI to mint later the NFT using the project smart contract.
+  Below is an example of the call to the DALLE-3 to generate an NFT:
       ```
         from openai import OpenAI
         client = OpenAI()
@@ -76,12 +76,12 @@ The main components are described here:
         )
         image_url = response.data[0].url
       ```
-  * It mints the particular NFT that will be rewarded to the ambassadors using the web3 python api. This api allows to mint the NFT in the Polkadot Moonbeam network. The NFT will be available for project ambassadors in their Polkadot Talisman wallet. Moreover the NFTs can also be traded in the Mintverse platform which is the world’s leading NFT aggregation marketplace, where users can easily collect and trade various types of NFT assets. Minting is performed using the new feature of dynamic NFT minting available in the project's airdrop smart contract defined below. 
+  * It mints the particular NFT that will be rewarded to the ambassadors using the Web3 Python API. This API allows to minting of the NFT in the Polkadot Moonbeam network. The NFT will be available for project ambassadors in their Polkadot Talisman wallet. Moreover, the NFTs can also be traded in the Mintverse platform which is the world’s leading NFT aggregation marketplace, where users can easily collect and trade various types of NFT assets. Minting is performed using the new feature of dynamic NFT minting available in the project's airdrop smart contract defined below. 
 
 
 
-* PolkaAirdops Smart Contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to mint and distribute the NFTs to the rewarded ambassadors. The project manager of the airdrop must send enough GLMR coins to the factory smart contract for the creation of the project's NFT smart contract. 
-Moonbeam is a perfect fit for our project because it allows for building cross-chain connected applications in the Polkadot ecosystem. Moonbeam powers dApps that can access users, assets, and services on any chain. Moreover Moonbeam leverage EVM complatible smart contracts programming where our team has extensive expertise. 
+* PolkaAirdops Smart Contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to minting and distribution of the NFTs to the rewarded ambassadors. The project manager of the airdrop must send enough GLMR coins to the factory smart contract for the creation of the project's NFT smart contract. 
+Moonbeam is a perfect fit for our project because it allows for building cross-chain connected applications in the Polkadot ecosystem. Moonbeam powers dApps that can access users, assets, and services on any chain. Moreover, Moonbeam leverages EVM-compatible smart contracts programming where our team has extensive expertise. 
 Here is an excerpt of the connection of the backend server to the Moonbeam smart contract.
 
     ```
@@ -99,57 +99,57 @@ Here is an excerpt of the connection of the backend server to the Moonbeam smart
 
 ### PolkaAirdrop UI Mockups 
 
-Our team already developed an UI mockup in the OpenAI platform for our PolkaAirdrops GPT. 
+Our team already developed a UI mockup in the OpenAI platform for our PolkaAirdrops GPT. 
 This is shown in the figure below.
 
  ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png)
 
 
-As you can see in the figure, the users will see our PolkaAirdrops GPT where they can manage the airdrop campaing and also claim the NFT airdrops. 
-The PolkaAirdrops GPT is a specific GPT that is viewed and directly accessible by billions of users worldwide that are using the OpenAI platform. Users can install it for free in their own OpenAI UI. 
+As you can see in the figure, the users will see our PolkaAirdrops GPT where they can manage the airdrop campaign and also claim the NFT airdrops. 
+The PolkaAirdrops GPT is a specific GPT that is viewed and directly accessible by billions of users worldwide who are using the OpenAI platform. Users can install it for free in their own OpenAI UI. 
 
 
-Once users have been installed the PolkaAirdrop, they will see the PolkaAirdrop UI as seen in the figure below. 
+Once users have installed the PolkaAirdrop, they will see the PolkaAirdrop UI as seen in the figure below. 
 
 ![overview of GPTs in the OpenAI platform](./OpenAI_Polka.png)
 
-In the figure, there are shown at the bottom the user main actions that will trigger the iteraction with the PolkaAirdrop GPT:  
-* _How do I create an airdop for my project?_. In this action the GPT will guide through the different steps to set up the airdrop such as defining the project manager address, the project prompt NFT, the requisites for ambassadors to get rewarded the NFT, the duration of the airdrop, among others configurations. 
+The figure shows at the bottom the user's main actions that will trigger the interaction with the PolkaAirdrop GPT:  
+* _How do I create an airdrop for my project?_. In this action the GPT will guide through the different steps to set up the airdrop such as defining the project manager address, the project prompt NFT, the requisites for ambassadors to get rewarded the NFT, duration of the airdrop, among other configurations. 
 
-* _Can you guide me on participation on the airdrop?_. This action is foscused to the ambassadors that the GPT AI will inform the ambassadors the actions that they have to perform to gain the NFT reward. 
+* _Can you guide me on participation in the airdrop?_. This action will inform the ambassadors of the actions that they have to perform to gain the NFT reward. 
 
-* _How do I redeem the airdrop?_. This is after the ending of the airdrop campaing, ambassadors can come back here to redeempt the NFT based on their posts performed in the Twitter social network. 
+* _How do I redeem the airdrop?_. This is after the ending of the airdrop campaign, ambassadors can come back here to redeem the NFT based on their posts performed on the Twitter social network. 
 
-* _What are the current airdrops on the Polkadot network?_. This is informative of the current ongoing airdrop that ambassadors can participate to promote the Polkadot project. 
+* _What are the current airdrops on the Polkadot network?_. This is informative of the current ongoing airdrop in that ambassadors can participate in promoting the Polkadot project. 
 
 ###  PolkaAirdrop's Limitations 
 
-* We are not intenting to trade NFTs. This is not a marketplace of NFT where anyone can sell and buy NFTs. For this purpose there are already platforms that are offering these services such as  Mintverse. 
+* We are not intending to trade NFTs. This is not a marketplace of NFTs where anyone can sell and buy NFTs. For this purpose, there are already platforms that are offering these services such as  Mintverse. 
 
-* We are focused on NFT airdrops only. The project can be extended to support later on token-based airdrops as well using a similar architecture. However, NFT airdrops provide value benefits to respect to token-based airdrops: 
+* We are focused on NFT airdrops only. The project can be extended to support later token-based airdrops as well as using a similar architecture. However, NFT airdrops provide value benefits with respect to token-based airdrops: 
   * Early access and exclusive benefits: NFT airdrops may provide users with early access to new features, exclusive content, or other perks. This can give them a sense of privilege and make them feel more invested in the project.
   * Potential value: Users can receive valuable NFTs for free, which could potentially increase in value over time. This can be an attractive incentive for users to participate in airdrops.
-  * Increased visibility and shareability. NFT airdrops are highly shareable in social network due to the visual nature of the NFT. 
+  * Increased visibility and shareability. NFT airdrops are highly shareable in social networks due to the visual nature of the NFT. 
 
 
-* Project promotion is limited to the Twitter social network. Althoug there are multiple social networks available such as Youtube, and Instagram. Twitter represents a social network as large as these platform with a Monetizable Daily Active Users (mDAU) of 330 millions.
+* Project promotion is limited to the Twitter social network. Although there are multiple social networks available such as YouTube, and Instagram. Twitter represents a social network as large as these platforms with a Monetizable Daily Active Users (mDAU) of 330 million.
 Youtube and Instagram have 129 mDAU and 330 mDAU, respectively. 
-Moreover, Twitter has been used as an excellent platform for building communities around crypto projects and also 
+Moreover, Twitter has been used as an excellent platform for building communities around crypto projects and 
 Twitter is home to a large number of crypto influencers, who are individuals with a large following and a high level of credibility among the crypto community. 
 
-* It is not a NFT wallet. Our project is not a crypto wallet to view your NFTs. For this purpose you can use the Talisman wallet. PolkaAirdrop is only designed to automate the distribution of airdrops.
+* It is not a NFT wallet. Our project is not a crypto wallet to view your NFTs. For this purpose, you can use the Talisman wallet. PolkaAirdrop is only designed to automate the distribution of airdrops.
 
 
 ### Ecosystem Fit
 
 *  Where and how does your project fit into the ecosystem?
 
-  It will be fit in the User Interface open-source Polkadot Tech Stack. 
+  It will fit in the User Interface open-source Polkadot Tech Stack. 
   Our project will offer listing and managing of current airdrops on the Polkadot ecosystem.
   
-  Up to now, there is no such as solution already implemented in the Polkadot Tech Stack. 
+  Up to now, there is no such solution already implemented in the Polkadot Tech Stack. 
   
-  Our solution, designed to be completely open source, directly benefits Polkadot projects
+  Our solution, designed to be completely open-source, directly benefits Polkadot projects
   by offering them access to our AI-driven automation software stack. 
   This innovative tool is specifically crafted to significantly boost their 
   visibility on social networks, enhancing their outreach and engagement within the digital community.
@@ -158,7 +158,7 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 
 *  Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-  Our target audience primarily consists of Polkadot projects aiming to extend their reach to a broader audience. Additionally, our project introduces an unparalleled solution in bridging the gap between social network influencers and ambassadors and the Polkadot project teams. This innovative merging is designed to create a mutually beneficial ecosystem where influencers and ambassadors can significantly amplify the visibility and appeal of Polkadot projects, driving engagement and adoption in the wider crypto community. Through this strategic alignment, PolkaAirdrops sets a new standard in digital marketing within the blockchain space, offering a unique and powerful tool for Polkadot projects to stand out in an increasingly competitive market.
+  Our target audience primarily consists of Polkadot projects aiming to extend their reach to a broader audience. Additionally, our project introduces an unparalleled solution for bridging the gap between social network influencers and ambassadors and the Polkadot project teams. This innovative merging is designed to create a mutually beneficial ecosystem where influencers and ambassadors can significantly amplify the visibility and appeal of Polkadot projects, driving engagement and adoption in the wider crypto community. Through this strategic alignment, PolkaAirdrops sets a new standard in digital marketing within the blockchain space, offering a unique and powerful tool for Polkadot projects to stand out in an increasingly competitive market.
 
 
 
@@ -166,7 +166,7 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
   
   Our project, PolkaAirdrops, meets several critical needs in the Polkadot Tech Stack:
 
-  * Enhanced Project Visibility: It addresses the fundamental need for increased visibility and recognition of Polkadot projects within the crowded and competitive cryptocurrency market. Currently, there is a lack of ambasadors and influencers embracing
+  * Enhanced Project Visibility: It addresses the fundamental need for increased visibility and recognition of Polkadot projects within the crowded and competitive cryptocurrency market. Currently, there is a lack of ambassadors and influencers embracing
   Polkadot projects. Our project solves this critical need by automating the crowdsourcing of project ambassadors on social media using 
   NFT airdrops.
 
@@ -178,7 +178,7 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 * Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
 
   Our project is unique in the Polkadot ecosystem. However, recently it has been launched this year (2023) a similar project that uses AI to generate NFT automatically. This project is called ChainGPT, https://www.chaingpt.org.
-  This project has been successfully launched in the Ethereum network standing today a marketcap of $38 million.
+  This project has been successfully launched in the Ethereum network standing today a market cap of $38 million.
   The main difference with this project is that we are automating the promotion and distribution of NFTs on social networks using AI sentiment analysis.
   In addition,  in our project, we are tapping into the vast and swiftly growing OpenAI ecosystem, leveraging its global influence and reach with the innovative Polkadot ecosystem.
 
@@ -187,7 +187,7 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 
 ### Team members
 
-- Jose Carlos Sancho, (founder, PhD. in Computer Science, AI and smart contract developer) 
+- Jose Carlos Sancho, (founder, Ph.D. in Computer Science, AI, and smart contract developer) 
 - Alexander Salas (Full-stack developer and AI developer)
 - Mariana Matheus (social media marketing expert) 
 
@@ -205,15 +205,15 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 
 ### Team's experience
 
-Jose Carlos Sancho, founder of AI Agents Lab, currently holds a PhD in Computer Science. 
-10 years experience on blockchain technology, NFTs, and currently in AI Generative Pre-trained Transformers (GPTs).
+Jose Carlos Sancho, the founder of AI Agents Lab, currently holds a Ph.D. in Computer Science. 
+He has 10 years of experience in blockchain technology, and NFTs, and is currently in AI Generative Pre-trained Transformers (GPTs).
 Alexander Salas, senior software developer currently contributing to many AI projects. 
-Mariana Matheus, graduated in Business administration with an special interest on marketing on social media. 
+Mariana Matheus graduated in Business administration with a special interest in marketing on social media. 
 
-Overall, our team has extensive experience on developing different software stacks.
-Our team developed an NFT project in the past. We have a solid programming expertise in NFT smart contracts on the EVM Ethernet network.
-In addition, we have expertise on developing on the OpenAI software stack using the OpenAI API.
-Recently, we have developed several trained GPTs that are public available:
+Overall, our team has extensive experience in developing different software stacks.
+Our team developed an NFT project in the past. We have solid programming expertise in NFT smart contracts on the EVM Ethernet network.
+In addition, we have expertise in developing the OpenAI software stack using the OpenAI API.
+Recently, we have developed several trained GPTs that are publicly available:
 * CryptoMastery: https://chat.openai.com/g/g-xVvJBeYik-crypto-mastery 
 * Photorealistic: https://chat.openai.com/g/g-lp1vmS7nC-photorealistic
 * BrainWave: https://chat.openai.com/g/g-o74FlvLep-brainwave
@@ -243,8 +243,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 ## Development Status :open_book:
 
 We have started to design and configure the PolkaAirdrops GPT, as you can see in 
-the screenshots showed above and the project Github page. 
-In addition, ongoing work have been also performed
+the screenshots shown above and the project GitHub page. 
+In addition, ongoing work has been also performed
 in defining the overall architecture of the PolkaAirdrop platform in detail,
 as you can see in this proposal.
 
@@ -258,7 +258,7 @@ https://forum.polkadot.network/t/make-polkadot-great-again/4004
 
 These top priorities align well with the direction of our project, 
 PolkaAirdrops, which is addressing these critical areas through its innovative use of AI in marketing and community engagement within the Polkadot network. 
-In addition,  PolkaAirdrops is well-aligned with the business development (BizDev) 
+In addition,  PolkaAirdrops is well-aligned with  business development (BizDev) 
 by implementing a fee for each airdrop.
 In this way, PolkaAirdrops not only ensures a sustainable revenue stream but also reinforces its role as a key player in the business development of the Polkadot ecosystem using cutting-edge AI technologies.
 
@@ -284,12 +284,12 @@ In this way, PolkaAirdrops not only ensures a sustainable revenue stream but als
 | **0b.** | Documentation | We will provide technical documents and user guides |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with the GPT trained. |
-| 1.      |  UI Design        | We will design the main actions for creation, managing, and participating airdrops in the GPT UI. |
+| 1.      |  UI Design        | We will design the main actions for creation, managing, and in participating airdrops in the GPT UI. |
 | 2.      |  GPT Training     | We will train the GPT to perform the different actions designed previously. |
-| 3.      |  GPT API          | We will implement the GPT api calls that will interface with the backend server.  |
+| 3.      |  GPT API          | We will implement the GPT API calls that will interface with the backend server.  |
 | 4.      |  NFT Creation     | We will implement the NFT creation functions in the backend server using the  openAI API to create NFTs.|
-| 5.      |  IPFS Storage     | We will implement the IPFS functions to store  the NFTs and promtps in the backend server.  |
-| 6.      |  Twitter          | We will implement the sentiment analysis funtionality in the backend server using the Twitter API.  |
+| 5.      |  IPFS Storage     | We will implement the IPFS functions to store  the NFTs and prompts in the backend server.  |
+| 6.      |  Twitter          | We will implement the sentiment analysis  functionality  in the backend server using the Twitter API.  |
 | 7.      |  Testing GPT      | Testing the implemented components above. Achieve a testing coverage of the functionalities above 90%  |
 
 
@@ -305,11 +305,11 @@ In this way, PolkaAirdrops not only ensures a sustainable revenue stream but als
 | **0b.** | Documentation | We will provide technical documents and user guides |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.|
 | **0d.** | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with the NFT smart contract factory. |
-| **0e.** | Article | We will publish an article video that explains the functionality of the project. First, from the project manager we will show how to create an airdrop campaing. And lastly, from the ambassador side, we will show how to participate and redeem NFTs. |
+| **0e.** | Article | We will publish an article video that explains the functionality of the project. First, from the project manager, we will show how to create an airdrop campaign. And lastly, from the ambassador side, we will show how to participate and redeem NFTs. |
 | 1. | Factory Smart Contract  | We will deliver  the Moonbeam smart contract factory that will create the different project smart contracts. |
 | 2. | NFT Dynamic Smart Contract | We will deliver the Moonbeam dynamic smart contract for projects that will mint the NFTs and distribute the NFTs. |
 | 3. | Backend API  | We will develop the API in the backend server to interact with the smart contract factory.  |
-| 4. | Monetization | We will develop the platform monetization mechanism to support future further developments.  |
+| 4. | Monetization | We will develop the platform monetization mechanism to support future  developments.  |
 | 5. | Testing Smart Contracts  | Testing the smart contract robustness and functionality as well as the monetization mechanism.  |
 
 
@@ -321,7 +321,7 @@ In this way, PolkaAirdrops not only ensures a sustainable revenue stream but als
 * We will extend the PolkaAirdrop project to support token-based airdrops.
 * We will extend the promotion of airdrops on other popular social media networks such as Instagram or WeChat.
 
-The project will be maintained after the grant. We will use own funds, and also the project 
+The project will be maintained after the grant. We will use our funds, and the project 
 is proposing a unique business model already being used in other similar platforms such as the ChainGPT project. 
 In particular, this business model is based on collecting a fee for each NFT project launch in the platform.
 
@@ -329,4 +329,4 @@ In particular, this business model is based on collecting a fee for each NFT pro
 ## Additional Information :heavy_plus_sign:
 
 
-**How did you hear about the Grants Program?** Announcement by the Polkadot CoinReference Team
+**How did you hear about the Grants Program?** An announcement by the CoinReference Team
