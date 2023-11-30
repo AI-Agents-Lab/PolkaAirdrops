@@ -323,7 +323,7 @@ In this way, PolkaAirdrops not only ensures a sustainable revenue stream but als
 
 The project will be maintained after the grant. We will use own funds, and also the project 
 is proposing a unique business model already being used in other similar platforms such as the ChainGPT project. 
-In particular, this business model is based on collecting a fee for each NFT project launch in the platfrom.
+In particular, this business model is based on collecting a fee for each NFT project launch in the platform.
 
 
 ## Additional Information :heavy_plus_sign:
