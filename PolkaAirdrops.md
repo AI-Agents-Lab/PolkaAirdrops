@@ -208,9 +208,10 @@ Overall, our team has extensive experience on developing different software stac
 Our team developed an NFT project in the past. We have a solid programming expertise in NFT smart contracts on the EVM Ethernet network.
 In addition, we have expertise on developing on the OpenAI software stack using the OpenAI API.
 Recently, we have developed several trained GPTs that are public available:
+* CryptoMastery: https://chat.openai.com/g/g-xVvJBeYik-crypto-mastery 
 * Photorealistic: https://chat.openai.com/g/g-lp1vmS7nC-photorealistic
 * BrainWave: https://chat.openai.com/g/g-o74FlvLep-brainwave
-* CryptoMastery: https://chat.openai.com/g/g-xVvJBeYik-crypto-mastery 
+
 
 
 This is our first time applying to the Web3 Foundation Grants. 
