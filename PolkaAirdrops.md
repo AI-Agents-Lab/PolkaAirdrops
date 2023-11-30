@@ -23,6 +23,12 @@ The immense potential we see in combining the power of airdrops with the expansi
 
 In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the cutting-edge capabilities of Generative Pre-trained Transformers (GPTs) for advanced natural language processing and sentiment analysis. This technology enables us to intelligently and automatically identify and reward positive social media engagements with precision. Simultaneously, we are utilizing EVM-compatible Moonbeam smart contracts to ensure seamless, secure, and cross-chain airdrop distributions. This harmonious integration of GPTs with  Moonbeam's cross-chain functionality is propelling us towards achieving our goal of elevating Polkadot projects' visibility on a global scale.
 
+In addition, the use of AI-driven airdrops can be effectively utilized not only for general promotion in social media but also for specific purposes such as highlighting project upgrades, events, and even rewarding attendance at conferences. 
+In  the last case, by offering attendances unique NFTs for their participation not only increases event visibility but also adds an element of excitement and exclusivity around attending these events.
+
+In summary, PolkaAirdrops represents a significant step forward in the intersection of AI and blockchain technology, particularly in the realm of cryptocurrency marketing and community engagement. 
+
+
 ### Key Features:
 
 * Generative AI-Driven NFT Creation: PolkaAirdrops allows to design and mint unique NFTs. These NFTs are not only visually distinctive but also embed certain characteristics or metadata that align with the crypto project's theme and ethos. This approach ensures that each NFT is exclusive and resonates with the project's branding.
@@ -236,15 +242,22 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
+We have started to design and configure the PolkaAirdrops GPT, as you can see in 
+the screenshots showed above and the project Github page. 
+
+We have also researched in the Polkadot Forum and found two exposed 
+critical  top priorities in Polkadot ecosystem which
+are (1) Marketing and (2) BizDev as you can see in the following post:
+https://forum.polkadot.network/t/make-polkadot-great-again/4004
 
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+These top priorities align well with the direction of our project, 
+PolkaAirdrops, which is addressing these critical areas through its innovative use of AI in marketing and community engagement within the Polkadot network. 
+In addition,  PolkaAirdrops is well-aligned with the business development (BizDev) 
+by implementing a fee for each airdrop.
+In this way, PolkaAirdrops not only ensures a sustainable revenue stream but also reinforces its role as a key player in the business development of the network.
 
-- links to improvement proposals or [RFPs](https://github.com/w3f/Grants-Program/tree/master/docs/RFPs) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+
 
 ## Development Roadmap :nut_and_bolt:
 
