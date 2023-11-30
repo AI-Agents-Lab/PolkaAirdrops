@@ -80,7 +80,7 @@ The main components are described here:
 
 
 
-* PolkaAirdops Smart Contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to mint and distribute the NFTs to the rewarded ambassadors. The project manager of the airdrop must send GLMR coins to the factory smart contract to create the propietary project NFT smart contract. 
+* PolkaAirdops Smart Contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to mint and distribute the NFTs to the rewarded ambassadors. The project manager of the airdrop must send enough GLMR coins to the factory smart contract for the creation of the project's NFT smart contract. 
 Moonbeam is a perfect fit for our project because it allows for building cross-chain connected applications in the Polkadot ecosystem. Moonbeam powers dApps that can access users, assets, and services on any chain. Moreover Moonbeam leverage EVM complatible smart contracts programming where our team has extensive expertise. 
 Here is an excerpt of the connection of the backend server to the Moonbeam smart contract.
 
@@ -99,14 +99,14 @@ Here is an excerpt of the connection of the backend server to the Moonbeam smart
 
 ### PolkaAirdrop UI Mockups 
 
-Our team already developed an UI mockup in the OpenAI platform for our PolkaAirdrops GPT AI. 
+Our team already developed an UI mockup in the OpenAI platform for our PolkaAirdrops GPT. 
 This is shown in the figure below.
 
  ![overview of GPTs in the OpenAI platform](./OpenAI_GPTs.png)
 
 
-As you can see in the figure, the users will see our PolkaAirdrops GPT AI  where they can manage the Airdrop campaing and also claim the NFT airdrops. 
-The PolkaAirdrop is a specific GPT that is viewed and directly accessible by billions of users worldwide that it is using the OpenAI platform. Users can install it for free in their own OpenAI platform. 
+As you can see in the figure, the users will see our PolkaAirdrops GPT where they can manage the airdrop campaing and also claim the NFT airdrops. 
+The PolkaAirdrops GPT is a specific GPT that is viewed and directly accessible by billions of users worldwide that are using the OpenAI platform. Users can install it for free in their own OpenAI UI. 
 
 
 Once users have been installed the PolkaAirdrop, they will see the PolkaAirdrop UI as seen in the figure below. 
