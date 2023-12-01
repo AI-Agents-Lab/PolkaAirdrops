@@ -21,7 +21,11 @@ fostering community engagement and attracting potential investors and users to P
 
 The immense potential we see in combining the power of airdrops with the expansive reach of social networks like Twitter provides an exceptional opportunity to amplify the visibility and appeal of Polkadot projects, reaching a diverse and extensive global audience in a way that is both innovative and highly effective.
 
-In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the cutting-edge capabilities of Generative Pre-trained Transformers (GPTs) for advanced natural language processing, sentiment analysis, and art creation. This technology enables us to intelligently and automatically identify and reward positive social media engagements with precision. Simultaneously, we are utilizing EVM-compatible Moonbeam smart contracts to ensure seamless, secure, and cross-chain airdrop distributions. This harmonious integration of GPTs with  Moonbeam's cross-chain functionality is propelling us toward achieving our goal of elevating Polkadot projects' visibility on a global scale.
+In our pursuit to realize this vision with PolkaAirdrops, we are leveraging the cutting-edge capabilities of Generative Pre-trained Transformers (GPTs) for advanced natural language processing, sentiment analysis, and art creation. This technology enables us to intelligently and automatically identify and reward positive social media engagements with precision. Simultaneously, we are utilizing EVM-compatible Moonbeam smart contracts to ensure seamless, secure, and cross-chain airdrop distributions.
+Moonbeam is a parachain on the Polkadot network. 
+enabling cross-chain communication and interoperability among different parachains
+in the Polkador ecosystems.
+This harmonious integration of GPTs with  Moonbeam's cross-chain functionality is propelling us toward achieving our goal of elevating Polkadot projects' visibility on a global scale.
 
 In addition, the use of AI-driven airdrops can be effectively utilized not only for general promotion in social media but also for specific purposes such as highlighting project upgrades, and events, and even rewarding attendance at conferences. 
 In  the last case, by offering attendances unique NFTs for their participation not only increases event visibility but also adds an element of excitement and exclusivity around attending these events.
@@ -195,8 +199,8 @@ Twitter is home to a large number of crypto influencers, who are individuals wit
 ### Contact
 
 - **Contact Name:**  Jose Carlos Sancho
-- **Contact Email:** aiagentslab@gmail.com
-- **Website:**       aiagentslab.com
+- **Contact Email:** jcsanchop@gmail.com
+- **Website:**       https://aiagentslab.com
 
 ### Legal Structure
 
@@ -268,13 +272,13 @@ In this way, PolkaAirdrops not only ensures a sustainable revenue stream but als
 
 ### Overview
 
-- **Total Estimated Duration:** 4 months
+- **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):**  5 FTE
 - **Total Costs:** 30,000 USD.
 
 ### Milestone 1 — GPT training 
 
-- **Estimated duration:** 8 weeks
+- **Estimated duration:** 6 weeks
 - **FTE:**  2.5
 - **Costs:** 15,000 USD
 
@@ -295,7 +299,7 @@ In this way, PolkaAirdrops not only ensures a sustainable revenue stream but als
 
 ### Milestone 2  — NFT smart contract factory
 
-- **Estimated duration:** 8 weeks
+- **Estimated duration:** 6 weeks
 - **FTE:**  2.5
 - **Costs:** 15,000 USD
 
