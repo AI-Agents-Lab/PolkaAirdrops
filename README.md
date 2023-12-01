@@ -1,1 +1,1 @@
-# AirShare
+# PolkaAirdrops
