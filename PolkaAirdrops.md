@@ -85,7 +85,7 @@ The main components are described here:
 
 
 * PolkaAirdops Smart Contract. This contract is a factory smart contract that creates a specific smart contract for the project airdrop allowing to minting and distribution of the NFTs to the rewarded ambassadors. The project manager of the airdrop must send enough GLMR coins to the factory smart contract for the creation of the project's NFT smart contract. 
-Moonbeam is a perfect fit for our project because it allows for building cross-chain connected applications in the Polkadot ecosystem. Moonbeam powers dApps that can access users, assets, and services on any chain. Moreover, Moonbeam leverages EVM-compatible smart contracts programming where our team has extensive expertise. 
+Moonbeam is a perfect fit for our project because it allows for building cross-chain connected applications in the Polkadot ecosystem.  Moreover, Moonbeam leverages EVM-compatible smart contracts programming where our team has extensive expertise. 
 Here is an excerpt of the connection of the backend server to the Moonbeam smart contract.
 
     ```
@@ -113,7 +113,7 @@ As you can see in the figure, the users will see our PolkaAirdrops GPT where the
 The PolkaAirdrops GPT is a specific GPT that is viewed and directly accessible by billions of users worldwide who are using the OpenAI platform. Users can install it for free in their own OpenAI UI. 
 
 
-Once users have installed the PolkaAirdrop, they will see the PolkaAirdrop UI as seen in the figure below. 
+Once users have installed the PolkaAirdrops GPT, they will see the PolkaAirdrop UI as seen in the figure below. 
 
 ![overview of GPTs in the OpenAI platform](./OpenAI_Polka.png)
 
@@ -262,10 +262,8 @@ https://forum.polkadot.network/t/make-polkadot-great-again/4004
 
 These top priorities align well with the direction of our project, 
 PolkaAirdrops, which is addressing these critical areas through its innovative use of AI in marketing and community engagement within the Polkadot network. 
-In addition,  PolkaAirdrops is well-aligned with  business development (BizDev) 
-by implementing a fee for each airdrop.
-In this way, PolkaAirdrops not only ensures a sustainable revenue stream but also reinforces its role as a key player in the business development of the Polkadot ecosystem using cutting-edge AI technologies.
-
+In addition,  PolkaAirdrops is well-aligned with  business development (BizDev).
+PolkaAirdrops secures a sustainable revenue source by introducing a charge for every airdrop campaign. Through this strategy, PolkaAirdrops not only maintains a steady financial flow but also strengthens its position as an integral contributor to the business growth within the Polkadot ecosystem, leveraging advanced AI technologies.
 
 
 ## Development Roadmap :nut_and_bolt:
@@ -327,10 +325,10 @@ In this way, PolkaAirdrops not only ensures a sustainable revenue stream but als
 
 The project will be maintained after the grant. We will use our funds, and the project 
 is proposing a unique business model already being used in other similar platforms such as the ChainGPT project. 
-In particular, this business model is based on collecting a fee for each NFT project launch in the platform.
+In particular, this business model is based on collecting a fee for each NFT airdrop campaign launch in the platform.
 
 
 ## Additional Information :heavy_plus_sign:
 
 
-**How did you hear about the Grants Program?** An announcement by the CoinReference Team
+**How did you hear about the Grants Program?** Web3 Foundation website
